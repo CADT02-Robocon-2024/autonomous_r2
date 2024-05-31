@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist, Vector3
+from sensor_msgs.msg import Imu
 import math
 from odometry.PID import PID
 
@@ -35,12 +36,14 @@ class MovementControl(Node):
         # Subscriptions
         self.create_subscription(Vector3, 'odometry', self.odometry_callback, 10)
         self.create_subscription(Twist, 'cmd_vel', self.cmd_vel_callback, 10)
+        self.create_subscription(Imu, 'imu/data_raw', self.imu_callback, 10)
 
         # Publisher
         self.velocity_publisher = self.create_publisher(Vector3, 'velocity_command', 10)
 
         # Initialize positions
         self.pos = Vector3()
+        self.imu = Imu()
         self.target_x = 0.0
         self.target_y = 0.0
         self.target_heading = 0.0
@@ -52,13 +55,16 @@ class MovementControl(Node):
 
         # Initialize PID controllers
         self.driveOutput = PID(0, 2, 0, 10, 20)
-        self.turnOutput = PID(0, 2, 0, 0.1, 50)
+        self.turnOutput = PID(0, 2, 0, 0.01, 50)
         self.driveVx = PID(0, 35, 0)
         self.driveVy = PID(0, 35, 0)
         self.turnPID = PID(0, 50, 0)
 
     def odometry_callback(self, msg):
         self.pos = msg
+    
+    def imu_callback(self, msg):
+        self.imu = msg
 
     def cmd_vel_callback(self, msg):
         self.target_x = msg.linear.x
@@ -77,15 +83,15 @@ class MovementControl(Node):
 
     def movement(self):
         print('Hello')
-        turnOutput_PID = self.turnOutput.calculate_pid_output(self.target_heading - self.pos.z)
+        turnOutput_PID = self.turnOutput.calculate_pid_output(self.target_heading - self.imu.orientation.w)
         driveOutput_PID = self.driveOutput.calculate_pid_output(math.hypot(self.target_x - self.pos.x, self.target_y - self.pos.y))
 
         turnSettled = self.turnOutput.is_settled()
-        self.get_logger().info(f'target_x {turnSettled}')
+        self.get_logger().info(f'heading {self.imu.orientation.w}')
         self.driveOutput.setpoint = math.hypot(self.target_x - self.pos.x, self.target_y - self.pos.y)
         self.driveVx.setpoint = self.target_x - self.pos.x
         self.driveVy.setpoint = self.target_y - self.pos.y
-        self.turnPID.setpoint = self.target_heading - self.pos.z
+        self.turnPID.setpoint = self.target_heading - self.imu.orientation.w
 
         
 
@@ -95,7 +101,7 @@ class MovementControl(Node):
             self.get_logger().info(f'target x {turnSettled}')
             error_x = self.target_x - self.pos.x
             error_y = self.target_y - self.pos.y
-            heading_error = self.target_heading - self.pos.z
+            heading_error = self.target_heading - self.imu.orientation.w
 
             theta2 = math.atan2(error_y, error_x)
 
@@ -112,20 +118,21 @@ class MovementControl(Node):
 
             Vx = max(min(Vx, 4800), -4800)
             Vy = max(min(Vy, 4800), -4800)
-            
+            omega = max(min(omega, 10.0), -10.0)
+
 
             if self.target_heading != 0 and self.target_x == 0 and self.target_y == 0:
                 Vx = 0.0
                 Vy = 0.0
                 self.get_logger().info("Rotation")
-                # Omega = max(min(Vy, 5), -5)
+
             else:
                 # turnSettled = True
                 self.get_logger().info("Linear")
 
             velocity_command = Vector3()
             velocity_command.x = Vx
-            print(f'Type: {type(Vx)}')
+            print(f'Type: {type(omega)}')
             velocity_command.y = Vy
             velocity_command.z = omega
 
