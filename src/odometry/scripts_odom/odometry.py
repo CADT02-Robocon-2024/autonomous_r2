@@ -44,9 +44,14 @@ class MovementControl(Node):
         # Initialize positions
         self.pos = Vector3()
         self.imu = Imu()
+        self.orientation = 0.0
         self.target_x = 0.0
         self.target_y = 0.0
         self.target_heading = 0.0
+
+        self.imu_counter = 0
+        self.offset_w = 0
+        self.corrected_yaw = 0.0
 
         # Timer
         self.timer = self.create_timer(0.1, self.movement)
@@ -55,7 +60,7 @@ class MovementControl(Node):
 
         # Initialize PID controllers
         self.driveOutput = PID(0, 2, 0, 10, 20)
-        self.turnOutput = PID(0, 2, 0, 0.01, 50)
+        self.turnOutput = PID(0, 2, 0, 0.03, 10)
         self.driveVx = PID(0, 35, 0)
         self.driveVy = PID(0, 35, 0)
         self.turnPID = PID(0, 50, 0)
@@ -65,6 +70,21 @@ class MovementControl(Node):
     
     def imu_callback(self, msg):
         self.imu = msg
+        if self.imu_counter == 0:
+            self.offset_w = self.imu.orientation.w
+            self.get_logger().info(f'self.offset_w: {self.offset_w}')
+            self.imu_counter = 1
+
+        if self.imu.orientation.w < math.pi:
+            if self.offset_w > math.pi:
+                self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
+            else:
+                self.corrected_yaw = (self.offset_w - self.imu.orientation.w) * -1
+        else:
+            if self.offset_w > math.pi:
+                self.corrected_yaw = (self.imu.orientation.w - self.offset_w)
+            else: 
+                self.corrected_yaw = (self.offset_w + (2*math.pi - self.imu.orientation.w)) * -1
 
     def cmd_vel_callback(self, msg):
         self.target_x = msg.linear.x
@@ -81,27 +101,34 @@ class MovementControl(Node):
         
         self.get_logger().info(f'Move complete')
 
+    def clamp(input_value, min_value, max_value):
+        if input_value > max_value:
+            return max_value
+        if input_value < min_value:
+            return min_value
+        return input_value
+
+
     def movement(self):
         print('Hello')
-        turnOutput_PID = self.turnOutput.calculate_pid_output(self.target_heading - self.imu.orientation.w)
+        turnOutput_PID = self.turnOutput.calculate_pid_output((self.target_heading) - (self.corrected_yaw))
         driveOutput_PID = self.driveOutput.calculate_pid_output(math.hypot(self.target_x - self.pos.x, self.target_y - self.pos.y))
 
         turnSettled = self.turnOutput.is_settled()
-        self.get_logger().info(f'heading {self.imu.orientation.w}')
+        self.get_logger().info(f'error {(self.target_heading) - (self.corrected_yaw)}')
+        self.get_logger().info(f'orientation {(self.corrected_yaw)}')
+        self.get_logger().info(f'Offset {(self.offset_w)}')
         self.driveOutput.setpoint = math.hypot(self.target_x - self.pos.x, self.target_y - self.pos.y)
         self.driveVx.setpoint = self.target_x - self.pos.x
         self.driveVy.setpoint = self.target_y - self.pos.y
-        self.turnPID.setpoint = self.target_heading - self.imu.orientation.w
-
-        
-
+        self.turnPID.setpoint = (self.target_heading) - (self.corrected_yaw)
 
         if not self.driveOutput.is_settled() or not turnSettled:
             turnSettled = self.turnOutput.is_settled()
             self.get_logger().info(f'target x {turnSettled}')
             error_x = self.target_x - self.pos.x
             error_y = self.target_y - self.pos.y
-            heading_error = self.target_heading - self.imu.orientation.w
+            heading_error = (self.target_heading) - (self.corrected_yaw)
 
             theta2 = math.atan2(error_y, error_x)
 
@@ -114,14 +141,18 @@ class MovementControl(Node):
 
             Vx = (Vx_PID + Vx)
             Vy = -1 * (Vy_PID + Vy)
-            omega = omega_PID
+            omega = -1 *omega_PID
 
             Vx = max(min(Vx, 4800), -4800)
             Vy = max(min(Vy, 4800), -4800)
-            omega = max(min(omega, 10.0), -10.0)
+            if omega < 10 and omega > 0:
+                omega = 10.0
+            elif omega > -10 and omega < 0:
+                omega = -10.0
+            
 
 
-            if self.target_heading != 0 and self.target_x == 0 and self.target_y == 0:
+            if (self.target_heading) != 0 and self.target_x == 0 and self.target_y == 0:
                 Vx = 0.0
                 Vy = 0.0
                 self.get_logger().info("Rotation")

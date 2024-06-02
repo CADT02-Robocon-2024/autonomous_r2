@@ -14,6 +14,7 @@ class KeyboardPublisher(Node):
             vx = float(input("Enter DistanceX: "))
             vy = float(input("Enter DistanceY: "))
             omega = float(input("Enter omega: "))
+            omega_rad = omega * (3.14159 / 180)
         except ValueError:
             self.get_logger().error("Invalid input. Please enter numeric values.")
             return
@@ -21,7 +22,7 @@ class KeyboardPublisher(Node):
         msg = Twist()
         msg.linear.x = vx
         msg.linear.y = vy
-        msg.angular.z = omega
+        msg.angular.z = omega_rad
 
         self.publisher.publish(msg)
         self.get_logger().info(f'Published velocity command: linear.x={vx}, linear.y={vy}, angular.z={omega}')
