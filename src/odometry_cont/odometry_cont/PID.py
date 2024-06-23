@@ -7,6 +7,7 @@ class PID:
         self.settle_time = settle_time
         self.time_spent_settled = 0
         self.time_spent_running = 0
+        self.settled = False
 
     def calculate_pid_output(self, error):
         kd = 0.0
@@ -19,15 +20,18 @@ class PID:
 
         if abs(error) < self.settle_error:
             #print(f"fabs(error): {abs(error)}")
-            self.time_spent_settled += 10  # Assuming 10 is the time increment, e.g., milliseconds
+            # self.time_spent_settled += 10  # Assuming 10 is the time increment, e.g., milliseconds
+            self.settled = True
         else:
-            self.time_spent_settled = 0
+            # self.time_spent_settled = 0
+            self.settled = False
 
         return proportional + integral + derivative
 
     def is_settled(self):
         #print(f"time_spent_settled: {self.time_spent_settled}")
-        if self.time_spent_settled > self.settle_time:
-            return True
-        return False
+        
+        # if self.time_spent_settled > self.settle_time:
+        #     return True
+        return self.settled
     

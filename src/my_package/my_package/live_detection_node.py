@@ -61,7 +61,7 @@ class LiveObjectDetectionNode(Node):
         # y = math.sin(omega) * depth
         x = 0.0
         y = 0.0
-        omega = omega*-1
+        omega = omega
         self.send_twist_command(x,y,omega)
     
     def calculate_middle_angle(self, center_x, frame_width):
