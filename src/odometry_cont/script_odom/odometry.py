@@ -3,29 +3,8 @@ from rclpy.node import Node
 from geometry_msgs.msg import Twist, Vector3
 from sensor_msgs.msg import Imu
 import math
-from odometry.PID import PID
-
-
-# class PID:
-#     def __init__(self, setpoint, kp, ki, kd=0, tolerance=0):
-#         self.setpoint = setpoint
-#         self.kp = kp
-#         self.ki = ki
-#         self.kd = kd
-#         self.tolerance = tolerance
-#         self.prev_error = 0
-#         self.integral = 0
-
-#     def calculate_pid_output(self, current_value):
-#         error = self.setpoint - current_value
-#         self.integral += error
-#         derivative = error - self.prev_error
-#         self.prev_error = error
-#         output = self.kp * error + self.ki * self.integral + self.kd * derivative
-#         return output
-
-#     def is_settled(self):
-#         return abs(self.prev_error) < self.tolerance
+from odometry_cont.PID import PID
+from cadt02_interfaces.msg import WayPoint
 
 
 class MovementControl(Node):
@@ -40,6 +19,7 @@ class MovementControl(Node):
 
         # Publisher
         self.velocity_publisher = self.create_publisher(Vector3, 'velocity_command', 10)
+        self.way_point_bool = self.create_publisher(WayPoint, 'wp_done', 10)
 
         # Initialize positions
         self.pos = Vector3()
@@ -55,15 +35,16 @@ class MovementControl(Node):
 
         # Timer
         self.timer = self.create_timer(0.1, self.movement)
+        # self.timer = self.create_timer(0.1, self.moving)
 
         self.move = True
 
         # Initialize PID controllers
-        self.driveOutput = PID(0, 2, 0, 10, 20)
-        self.turnOutput = PID(0, 2, 0, 0.03, 10)
-        self.driveVx = PID(0, 35, 0)
-        self.driveVy = PID(0, 35, 0)
-        self.turnPID = PID(0, 50, 0)
+        self.driveOutput = PID(0, 2, 0, 5, 10)
+        self.turnOutput = PID(0, 2, 0, 0.08, 10)
+        self.driveVx = PID(0, 50, 0.01)
+        self.driveVy = PID(0, 40, 0.01)
+        self.turnPID = PID(0, 5, 0.01)
 
     def odometry_callback(self, msg):
         self.pos = msg
@@ -74,6 +55,10 @@ class MovementControl(Node):
             self.offset_w = self.imu.orientation.w
             self.get_logger().info(f'self.offset_w: {self.offset_w}')
             self.imu_counter = 1
+            
+        if self.offset_w > math.pi:
+            if self.imu.orientation.w < math.pi:
+                self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
 
         if self.imu.orientation.w < math.pi:
             if self.offset_w > math.pi:
@@ -85,21 +70,24 @@ class MovementControl(Node):
                 self.corrected_yaw = (self.imu.orientation.w - self.offset_w)
             else: 
                 self.corrected_yaw = (self.offset_w + (2*math.pi - self.imu.orientation.w)) * -1
-
     def cmd_vel_callback(self, msg):
         self.target_x = msg.linear.x
         self.target_y = msg.linear.y
         self.target_heading = msg.angular.z
 
-    def moving(self):
-        targets = [self.target_x, self.target_y, self.target_heading]
-        self.get_logger().info(f'targets: {targets}')
-        while self.move:
-            self.get_logger().info(f'moving')
-            self.movement(self.target_x, self.target_y, self.target_heading)
-            self.move = False
+    # def moving(self):
+    #     targets = [100, 0, 0]
+    #     self.get_logger().info(f'targets: {targets}')
+    #     self.target_x = targets[0]
+    #     self.target_y = targets[1]
+    #     self.target_heading = targets[2]
+    #     while self.move:
+    #         self.get_logger().info(f'Target x {self.target_x}')
+    #         self.movement()
+    #         self.get_logger().info(f'Move Bool {self.move}')
+    #         # self.move = False
         
-        self.get_logger().info(f'Move complete')
+    #     self.get_logger().info(f'Move complete')
 
     def clamp(input_value, min_value, max_value):
         if input_value > max_value:
@@ -124,8 +112,10 @@ class MovementControl(Node):
         self.turnPID.setpoint = (self.target_heading) - (self.corrected_yaw)
 
         if not self.driveOutput.is_settled() or not turnSettled:
+            self.get_logger().info(f'target_heading {(self.target_heading)}')
             turnSettled = self.turnOutput.is_settled()
-            self.get_logger().info(f'target x {turnSettled}')
+            self.get_logger().info(f'target x {self.target_x}')
+            self.get_logger().info(f'pos x {self.pos.x}')
             error_x = self.target_x - self.pos.x
             error_y = self.target_y - self.pos.y
             heading_error = (self.target_heading) - (self.corrected_yaw)
@@ -134,21 +124,42 @@ class MovementControl(Node):
 
             Vy = (math.cos(theta2) - math.sin(theta2))
             Vx = (math.sin(theta2) + math.cos(theta2))
+            self.get_logger().info(f'Vx {Vx}')
+            self.get_logger().info(f'Vy {Vy}')
 
             Vx_PID = self.driveVx.calculate_pid_output(error_x)
             Vy_PID = self.driveVy.calculate_pid_output(error_y)
             omega_PID = self.turnPID.calculate_pid_output(heading_error)
+            self.get_logger().info(f'Vx_PID {Vx_PID}')
+            self.get_logger().info(f'Vy_PID {Vy_PID}')
+
 
             Vx = (Vx_PID + Vx)
-            Vy = -1 * (Vy_PID + Vy)
+            Vy = (Vy_PID + Vy) 
             omega = -1 *omega_PID
+            self.get_logger().info(f'Hello world')
 
-            Vx = max(min(Vx, 4800), -4800)
-            Vy = max(min(Vy, 4800), -4800)
-            if omega < 10 and omega > 0:
+
+            Vx = max(min(Vx, 4800.0), -4800.0)
+            Vy = max(min(Vy, 4800.0), -4800.0)
+
+            if(Vx < 150 and Vx > 0):
+                Vx = 150.0
+            elif(Vx > -150 and Vx < 0):
+                Vx = -150.0
+            
+            if(Vy < 150 and Vy > 0):
+                Vy = 150.0
+            elif(Vy > -150 and Vy < 0):
+                Vy = -150.0
+
+            self.get_logger().info(f'Omega {omega}')
+            if omega < 10 and omega > 0.08:
                 omega = 10.0
-            elif omega > -10 and omega < 0:
+            elif omega > -10 and omega < -0.08:
                 omega = -10.0
+            elif omega == 0:
+                omega = 0.0
             
 
 
@@ -163,19 +174,36 @@ class MovementControl(Node):
 
             velocity_command = Vector3()
             velocity_command.x = Vx
+            # velocity_command.x = 0.0
             print(f'Type: {type(omega)}')
             velocity_command.y = Vy
             velocity_command.z = omega
 
+            bool_done = WayPoint()
+            error = math.hypot(self.target_x - self.pos.x, self.target_y - self.pos.y)
+            bool_done.error = error
+            bool_done.done = False
+
+            # self.get_logger().info(f'Publishing bool {bool_done.done}')
+
+
             self.velocity_publisher.publish(velocity_command)
+            self.way_point_bool.publish(bool_done)
+
             self.get_logger().info(f'Publishing velocity: Vx={Vx}, Vy={Vy}, omega={omega}')
         elif self.driveOutput.is_settled() or turnSettled:
             self.get_logger().info("Settled")
             velocity_command = Vector3()
-            velocity_command.x = 0.0
-            velocity_command.y = 0.0
-            velocity_command.z = 0.0
+            # velocity_command.x = 0.0
+            # velocity_command.y = 0.0
+            # velocity_command.z = 0.0
             self.velocity_publisher.publish(velocity_command)
+
+            bool_done = WayPoint()
+            bool_done.done = True
+            self.way_point_bool.publish(bool_done)
+
+            self.move = False
 
 
 def main(args=None):
