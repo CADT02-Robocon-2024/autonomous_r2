@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import rclpy
 from rclpy.node import Node
-from gui_inter.msg import TeamSelection  # Import the custom message
+from gui_inter.msg import Hello
 
 # Initialize the ROS node
 rclpy.init()
