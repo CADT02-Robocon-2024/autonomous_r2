@@ -1,14 +1,14 @@
 import customtkinter as ctk
 import rclpy
 from rclpy.node import Node
-from gui_inter.msg import Hello
+from gui_inter.msg import TeamSelection  # Import the custom message
 
 # Initialize the ROS node
 rclpy.init()
 node = rclpy.create_node('gui_node')
 
 # Define ROS publisher
-publisher = node.create_publisher(Hello, 'team_selection', 10)
+publisher = node.create_publisher(TeamSelection, 'team_selection', 10)
 
 app = ctk.CTk()
 app.title("CADT 02 ABU Robocon GUI")
@@ -24,19 +24,14 @@ def publish_ros_message():
     global team_selected, start, retry_ii
     
     # Create and publish the custom message
-    msg = Hello()
+    msg = TeamSelection()
     msg.team_selected = team_selected
-    msg.start = start
-    msg.retry_ii = retry_ii
-
     publisher.publish(msg)
     node.get_logger().info(f'Publishing team_selected: {msg.team_selected}, start: {msg.start}, retry_ii: {msg.retry_ii}')
 
 def red_team_clicked():
     global team_selected, start, retry_ii
     team_selected = False
-    start = "No"
-    retry_ii = 0
     start_button.configure(state="disabled")
     retry_ii_button.configure(state="disabled")
     publish_ros_message()
@@ -52,12 +47,12 @@ def blue_team_clicked():
 
 def start_clicked():
     global start
-    start = "Yes"
+    start = "Yes" if team_selected else "No"
     publish_ros_message()
 
 def retry_ii_clicked():
     global retry_ii
-    retry_ii = 1
+    retry_ii = 1 if team_selected else 0
     publish_ros_message()
 
 top_frame = ctk.CTkFrame(app)
