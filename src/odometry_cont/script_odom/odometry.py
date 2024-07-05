@@ -45,31 +45,54 @@ class MovementControl(Node):
         self.driveVx = PID(0, 50, 0.01)
         self.driveVy = PID(0, 40, 0.01)
         self.turnPID = PID(0, 5, 0.01)
+        self.turnPID1 = PID(0, 50, 0.01)
 
     def odometry_callback(self, msg):
         self.pos = msg
     
     def imu_callback(self, msg):
         self.imu = msg
+        # if self.imu_counter == 0:
+        #     self.offset_w = self.imu.orientation.w
+        #     self.get_logger().info(f'self.offset_w: {self.offset_w}')
+        #     self.imu_counter = 1
+            
+        # if self.offset_w > math.pi:
+        #     if self.imu.orientation.w < math.pi:
+        #         self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
+
+        # if self.imu.orientation.w < math.pi:
+        #     if self.offset_w > math.pi:
+        #         self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
+        #     else:
+        #         self.corrected_yaw = (self.offset_w - self.imu.orientation.w) * -1
+        # else:
+        #     if self.offset_w > math.pi:
+        #         self.corrected_yaw = (self.imu.orientation.w - self.offset_w)
+        #     else: 
+        #         self.corrected_yaw = (self.offset_w + (2*math.pi - self.imu.orientation.w)) * -1
         if self.imu_counter == 0:
             self.offset_w = self.imu.orientation.w
             self.get_logger().info(f'self.offset_w: {self.offset_w}')
             self.imu_counter = 1
-            
-        if self.offset_w > math.pi:
-            if self.imu.orientation.w < math.pi:
-                self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
+        
+        # Get the current yaw from the IMU
+        current_yaw = self.imu.orientation.w
+        
+        # Normalize current yaw to be within [-PI, PI]
+        current_yaw = (current_yaw + math.pi) % (2 * math.pi) - math.pi
+        
+        # Calculate corrected yaw
+        self.corrected_yaw = current_yaw - self.offset_w
+        
+        # Normalize corrected yaw to be within [-2PI, 2PI]
+        if self.corrected_yaw > math.pi:
+            self.corrected_yaw -= 2 * math.pi
+        elif self.corrected_yaw < -math.pi:
+            self.corrected_yaw += 2 * math.pi
+        
+        # self.get_logger().info(f'Corrected Yaw: {self.corrected_yaw}')
 
-        if self.imu.orientation.w < math.pi:
-            if self.offset_w > math.pi:
-                self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
-            else:
-                self.corrected_yaw = (self.offset_w - self.imu.orientation.w) * -1
-        else:
-            if self.offset_w > math.pi:
-                self.corrected_yaw = (self.imu.orientation.w - self.offset_w)
-            else: 
-                self.corrected_yaw = (self.offset_w + (2*math.pi - self.imu.orientation.w)) * -1
     def cmd_vel_callback(self, msg):
         self.target_x = msg.linear.x
         self.target_y = msg.linear.y
@@ -110,6 +133,7 @@ class MovementControl(Node):
         self.driveVx.setpoint = self.target_x - self.pos.x
         self.driveVy.setpoint = self.target_y - self.pos.y
         self.turnPID.setpoint = (self.target_heading) - (self.corrected_yaw)
+        self.turnPID1.setpoint = (self.target_heading) - (self.corrected_yaw)
 
         if not self.driveOutput.is_settled() or not turnSettled:
             self.get_logger().info(f'target_heading {(self.target_heading)}')
@@ -130,8 +154,10 @@ class MovementControl(Node):
             Vx_PID = self.driveVx.calculate_pid_output(error_x)
             Vy_PID = self.driveVy.calculate_pid_output(error_y)
             omega_PID = self.turnPID.calculate_pid_output(heading_error)
+            omega_PID1 = self.turnPID1.calculate_pid_output(heading_error)
             self.get_logger().info(f'Vx_PID {Vx_PID}')
             self.get_logger().info(f'Vy_PID {Vy_PID}')
+            # self.get_logger().info(f'Omega_PID {omega_PID}')
 
 
             Vx = (Vx_PID + Vx)
@@ -140,8 +166,8 @@ class MovementControl(Node):
             self.get_logger().info(f'Hello world')
 
 
-            Vx = max(min(Vx, 4800.0), -4800.0)
-            Vy = max(min(Vy, 4800.0), -4800.0)
+            Vx = max(min(Vx, 7000.0), -7000.0)
+            Vy = max(min(Vy, 7000.0), -7000.0)
 
             if(Vx < 150 and Vx > 0):
                 Vx = 150.0
@@ -154,12 +180,17 @@ class MovementControl(Node):
                 Vy = -150.0
 
             self.get_logger().info(f'Omega {omega}')
-            if omega < 10 and omega > 0.08:
-                omega = 10.0
-            elif omega > -10 and omega < -0.08:
-                omega = -10.0
-            elif omega == 0:
-                omega = 0.0
+            self.get_logger().info(f'Omega_PID1 {omega_PID1}')
+            if self.target_heading == 0.0:
+                if omega < 10 and omega > 0.08:
+                    omega = 10.0
+                elif omega > -10 and omega < -0.08:
+                    omega = -10.0
+                elif omega == 0:
+                    omega = 0.0
+            else:
+                omega = -1 * omega_PID1
+
             
 
 

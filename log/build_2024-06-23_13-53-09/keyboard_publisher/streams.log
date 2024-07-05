@@ -1,0 +1,60 @@
+[6.430s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher': LD_LIBRARY_PATH=/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/build --no-deps install_data
+[6.777s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[6.779s] !!
+[6.780s] 
+[6.781s]         ********************************************************************************
+[6.781s]         Usage of dash-separated 'script-dir' will not be supported in future
+[6.782s]         versions. Please use the underscore name 'script_dir' instead.
+[6.782s] 
+[6.783s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[6.783s]         or your builds will no longer be supported.
+[6.784s] 
+[6.786s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[6.787s]         ********************************************************************************
+[6.788s] 
+[6.788s] !!
+[6.789s]   opt = self.warn_dash_deprecation(opt, section)
+[7.268s] running develop
+[7.269s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[7.269s] !!
+[7.271s] 
+[7.273s]         ********************************************************************************
+[7.273s]         Please avoid running ``setup.py`` and ``easy_install``.
+[7.274s]         Instead, use pypa/build, pypa/installer or other
+[7.274s]         standards-based tools.
+[7.275s] 
+[7.275s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[7.276s]         ********************************************************************************
+[7.276s] 
+[7.277s] !!
+[7.277s]   easy_install.initialize_options(self)
+[7.359s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[7.359s] !!
+[7.360s] 
+[7.361s]         ********************************************************************************
+[7.362s]         Please avoid running ``setup.py`` directly.
+[7.363s]         Instead, use pypa/build, pypa/installer or other
+[7.363s]         standards-based tools.
+[7.364s] 
+[7.364s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[7.365s]         ********************************************************************************
+[7.366s] 
+[7.366s] !!
+[7.367s]   self.initialize_options()
+[7.812s] running egg_info
+[7.853s] writing keyboard_publisher.egg-info/PKG-INFO
+[7.854s] writing dependency_links to keyboard_publisher.egg-info/dependency_links.txt
+[7.855s] writing entry points to keyboard_publisher.egg-info/entry_points.txt
+[7.856s] writing requirements to keyboard_publisher.egg-info/requires.txt
+[7.856s] writing top-level names to keyboard_publisher.egg-info/top_level.txt
+[7.946s] reading manifest file 'keyboard_publisher.egg-info/SOURCES.txt'
+[7.948s] writing manifest file 'keyboard_publisher.egg-info/SOURCES.txt'
+[8.101s] running build_ext
+[8.102s] Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages/keyboard-publisher.egg-link (link to .)
+[8.103s] Installing keyboard_publisher script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/keyboard_publisher
+[8.104s] 
+[8.104s] Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher
+[8.104s] running install_data
+[8.105s] copying resource/keyboard_publisher -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/ament_index/resource_index/packages
+[8.106s] copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher
+[9.300s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher' returned '0': LD_LIBRARY_PATH=/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/build --no-deps install_data

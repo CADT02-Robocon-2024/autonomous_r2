@@ -1,0 +1,612 @@
+[17.042s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/local/bin/colcon', 'build', '--symlink-install'][0m
+[17.043s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4c8f8e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4c8f8e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb49768b0>)[0m
+[17.802s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[17.802s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[17.802s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[17.802s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[17.802s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[17.802s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[17.802s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/cadt-02/Documents/can_test_usb/ros2_can'
+[17.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[17.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[17.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[17.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[17.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[17.803s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[17.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[17.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[17.804s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[17.863s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[17.863s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[17.863s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[17.863s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[17.864s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[17.864s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[17.864s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[17.864s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[17.865s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[17.865s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[17.865s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[17.865s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[17.865s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[17.865s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[17.866s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[17.866s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[17.866s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[17.866s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[17.866s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[17.867s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[17.868s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extensions ['ignore', 'ignore_ament_install']
+[17.868s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extension 'ignore'
+[17.868s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extension 'ignore_ament_install'
+[17.868s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extensions ['colcon_pkg']
+[17.868s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extension 'colcon_pkg'
+[17.868s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extensions ['colcon_meta']
+[17.869s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extension 'colcon_meta'
+[17.869s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extensions ['ros']
+[17.869s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/auto_r2) by extension 'ros'
+[17.874s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/auto_r2' with type 'ros.ament_python' and name 'auto_r2'[0m
+[17.877s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[17.877s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extension 'ignore'
+[17.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extension 'ignore_ament_install'
+[17.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extensions ['colcon_pkg']
+[17.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extension 'colcon_pkg'
+[17.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extensions ['colcon_meta']
+[17.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extension 'colcon_meta'
+[17.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extensions ['ros']
+[17.878s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/cadt02_interfaces) by extension 'ros'
+[17.879s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/cadt02_interfaces' with type 'ros.ament_cmake' and name 'cadt02_interfaces'[0m
+[17.881s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extensions ['ignore', 'ignore_ament_install']
+[17.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extension 'ignore'
+[17.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extension 'ignore_ament_install'
+[17.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extensions ['colcon_pkg']
+[17.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extension 'colcon_pkg'
+[17.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extensions ['colcon_meta']
+[17.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extension 'colcon_meta'
+[17.882s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extensions ['ros']
+[17.883s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_listener) by extension 'ros'
+[17.884s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/keyboard_listener' with type 'ros.ament_python' and name 'keyboard_listener'[0m
+[17.884s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extensions ['ignore', 'ignore_ament_install']
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extension 'ignore'
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extension 'ignore_ament_install'
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extensions ['colcon_pkg']
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extension 'colcon_pkg'
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extensions ['colcon_meta']
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extension 'colcon_meta'
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extensions ['ros']
+[17.885s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/keyboard_publisher) by extension 'ros'
+[17.887s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/keyboard_publisher' with type 'ros.ament_python' and name 'keyboard_publisher'[0m
+[17.887s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[17.887s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'ignore'
+[17.887s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'ignore_ament_install'
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extensions ['colcon_pkg']
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'colcon_pkg'
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extensions ['colcon_meta']
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'colcon_meta'
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extensions ['ros']
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'ros'
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extensions ['cmake', 'python']
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'cmake'
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'python'
+[17.888s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extensions ['python_setup_py']
+[17.889s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch) by extension 'python_setup_py'
+[17.889s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'ignore'
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'ignore_ament_install'
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extensions ['colcon_pkg']
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'colcon_pkg'
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extensions ['colcon_meta']
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'colcon_meta'
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extensions ['ros']
+[17.890s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'ros'
+[17.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extensions ['cmake', 'python']
+[17.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'cmake'
+[17.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'python'
+[17.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extensions ['python_setup_py']
+[17.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/launch/__pycache__) by extension 'python_setup_py'
+[17.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extensions ['ignore', 'ignore_ament_install']
+[17.891s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extension 'ignore'
+[17.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extension 'ignore_ament_install'
+[17.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extensions ['colcon_pkg']
+[17.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extension 'colcon_pkg'
+[17.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extensions ['colcon_meta']
+[17.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extension 'colcon_meta'
+[17.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extensions ['ros']
+[17.892s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/movement) by extension 'ros'
+[17.895s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/movement' with type 'ros.ament_python' and name 'movement'[0m
+[17.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[17.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extension 'ignore'
+[17.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extension 'ignore_ament_install'
+[17.896s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extensions ['colcon_pkg']
+[17.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extension 'colcon_pkg'
+[17.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extensions ['colcon_meta']
+[17.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extension 'colcon_meta'
+[17.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extensions ['ros']
+[17.897s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_package) by extension 'ros'
+[17.898s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/my_package' with type 'ros.ament_python' and name 'my_package'[0m
+[17.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['ignore', 'ignore_ament_install']
+[17.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'ignore'
+[17.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'ignore_ament_install'
+[17.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['colcon_pkg']
+[17.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'colcon_pkg'
+[17.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['colcon_meta']
+[17.899s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'colcon_meta'
+[17.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extensions ['ros']
+[17.900s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/my_robot) by extension 'ros'
+[17.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/my_robot' with type 'ros.ament_python' and name 'my_robot'[0m
+[17.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extensions ['ignore', 'ignore_ament_install']
+[17.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extension 'ignore'
+[17.901s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extension 'ignore_ament_install'
+[17.902s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extensions ['colcon_pkg']
+[17.902s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extension 'colcon_pkg'
+[17.902s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extensions ['colcon_meta']
+[17.902s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extension 'colcon_meta'
+[17.902s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extensions ['ros']
+[17.902s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/odometry_cont) by extension 'ros'
+[17.903s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/odometry_cont' with type 'ros.ament_python' and name 'odometry_cont'[0m
+[17.903s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extensions ['ignore', 'ignore_ament_install']
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extension 'ignore'
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extension 'ignore_ament_install'
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extensions ['colcon_pkg']
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extension 'colcon_pkg'
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extensions ['colcon_meta']
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extension 'colcon_meta'
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extensions ['ros']
+[17.904s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/ros_imu) by extension 'ros'
+[17.906s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/ros_imu' with type 'ros.ament_python' and name 'ros_imu'[0m
+[17.906s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[17.906s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[17.906s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[17.906s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[17.906s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[19.096s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'cmake_args' from command line to 'None'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'cmake_target' from command line to 'None'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'cmake_clean_cache' from command line to 'False'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'cmake_clean_first' from command line to 'False'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'cmake_force_configure' from command line to 'False'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'ament_cmake_args' from command line to 'None'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'catkin_cmake_args' from command line to 'None'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'auto_r2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.097s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'auto_r2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/auto_r2', 'symlink_install': True, 'test_result_base': None}[0m
+[19.384s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'cmake_args' from command line to 'None'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'cmake_target' from command line to 'None'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cadt02_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.385s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cadt02_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/cadt02_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[19.671s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'cmake_args' from command line to 'None'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'cmake_target' from command line to 'None'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'cmake_clean_first' from command line to 'False'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'cmake_force_configure' from command line to 'False'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'ament_cmake_args' from command line to 'None'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.672s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'keyboard_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/keyboard_listener', 'symlink_install': True, 'test_result_base': None}[0m
+[19.959s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'cmake_args' from command line to 'None'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'cmake_target' from command line to 'None'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'cmake_clean_cache' from command line to 'False'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'cmake_clean_first' from command line to 'False'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'cmake_force_configure' from command line to 'False'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'ament_cmake_args' from command line to 'None'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'catkin_cmake_args' from command line to 'None'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'movement' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.960s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'movement' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/movement', 'symlink_install': True, 'test_result_base': None}[0m
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[20.247s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[20.248s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[20.248s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_package', 'symlink_install': True, 'test_result_base': None}[0m
+[20.533s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_args' from command line to 'None'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_target' from command line to 'None'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_clean_first' from command line to 'False'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'cmake_force_configure' from command line to 'False'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'ament_cmake_args' from command line to 'None'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[20.534s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_robot', 'symlink_install': True, 'test_result_base': None}[0m
+[20.821s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'cmake_args' from command line to 'None'
+[20.821s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'cmake_target' from command line to 'None'
+[20.821s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[20.821s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'cmake_clean_cache' from command line to 'False'
+[20.822s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'cmake_clean_first' from command line to 'False'
+[20.822s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'cmake_force_configure' from command line to 'False'
+[20.822s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'ament_cmake_args' from command line to 'None'
+[20.822s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'catkin_cmake_args' from command line to 'None'
+[20.822s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'odometry_cont' build argument 'catkin_skip_building_tests' from command line to 'False'
+[20.822s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'odometry_cont' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/odometry_cont', 'symlink_install': True, 'test_result_base': None}[0m
+[21.109s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'cmake_args' from command line to 'None'
+[21.109s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'cmake_target' from command line to 'None'
+[21.109s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[21.109s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[21.109s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'cmake_clean_first' from command line to 'False'
+[21.110s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'cmake_force_configure' from command line to 'False'
+[21.110s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'ament_cmake_args' from command line to 'None'
+[21.110s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[21.110s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'ros_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[21.110s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'ros_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/ros_imu', 'symlink_install': True, 'test_result_base': None}[0m
+[21.398s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'cmake_args' from command line to 'None'
+[21.398s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'cmake_target' from command line to 'None'
+[21.398s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[21.399s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[21.399s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[21.399s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[21.399s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[21.399s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[21.399s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'keyboard_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[21.399s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'keyboard_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher', 'merge_install': False, 'path': '/home/cadt-02/Documents/can_test_usb/ros2_can/src/keyboard_publisher', 'symlink_install': True, 'test_result_base': None}[0m
+[21.684s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[21.971s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[21.972s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/cadt02_interfaces' with build type 'ament_cmake'
+[21.973s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/cadt02_interfaces'
+[22.293s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[22.294s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[22.294s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[23.177s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/auto_r2' with build type 'ament_python'
+[23.178s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('auto_r2', 'ament_prefix_path')
+[23.470s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/hook/ament_prefix_path.ps1'
+[23.473s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/hook/ament_prefix_path.dsv'
+[23.474s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/hook/ament_prefix_path.sh'
+[23.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.767s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[24.649s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/keyboard_listener' with build type 'ament_python'
+[24.650s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_listener', 'ament_prefix_path')
+[24.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/hook/ament_prefix_path.ps1'
+[24.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/hook/ament_prefix_path.dsv'
+[24.945s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/hook/ament_prefix_path.sh'
+[25.238s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.238s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[26.120s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/movement' with build type 'ament_python'
+[26.120s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('movement', 'ament_prefix_path')
+[26.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/hook/ament_prefix_path.ps1'
+[26.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/hook/ament_prefix_path.dsv'
+[26.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/hook/ament_prefix_path.sh'
+[26.709s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.709s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[27.590s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_package' with build type 'ament_python'
+[27.591s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'ament_prefix_path')
+[27.885s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[27.887s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[27.888s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[28.181s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.181s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[29.063s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_robot' with build type 'ament_python'
+[29.064s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_robot', 'ament_prefix_path')
+[29.357s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/hook/ament_prefix_path.ps1'
+[29.358s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/hook/ament_prefix_path.dsv'
+[29.359s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/hook/ament_prefix_path.sh'
+[29.650s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.650s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[30.550s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --build /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces -- -j6 -l6[0m
+[31.095s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/auto_r2'
+[31.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.389s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[32.790s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/keyboard_listener'
+[33.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.085s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[34.488s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/movement'
+[34.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.782s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[36.201s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_package'
+[36.494s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.494s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[37.896s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_robot'
+[38.188s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.189s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[39.079s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --build /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces -- -j6 -l6[0m
+[39.348s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --install /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces[0m
+[39.653s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cadt02_interfaces)
+[39.654s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --install /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces[0m
+[39.990s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces' for CMake module files
+[39.992s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces' for CMake config files
+[39.994s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cadt02_interfaces', 'cmake_prefix_path')
+[40.308s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/cmake_prefix_path.ps1'
+[40.310s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/cmake_prefix_path.dsv'
+[40.311s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/cmake_prefix_path.sh'
+[40.314s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib'
+[40.314s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cadt02_interfaces', 'ld_library_path_lib')
+[40.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/ld_library_path_lib.ps1'
+[40.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/ld_library_path_lib.dsv'
+[40.626s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/ld_library_path_lib.sh'
+[40.626s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/bin'
+[40.627s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/pkgconfig/cadt02_interfaces.pc'
+[40.627s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages'
+[40.627s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cadt02_interfaces', 'pythonpath')
+[40.942s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/pythonpath.ps1'
+[40.943s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/pythonpath.dsv'
+[40.944s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/pythonpath.sh'
+[40.945s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/bin'
+[41.238s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.ps1'
+[41.241s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.dsv'
+[41.243s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.sh'
+[41.245s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.bash'
+[41.246s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.zsh'
+[41.248s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/colcon-core/packages/cadt02_interfaces)
+[41.265s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/build --no-deps install_data[0m
+[41.273s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/build --no-deps install_data[0m
+[41.281s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/build --no-deps install_data[0m
+[41.290s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build --no-deps install_data[0m
+[41.300s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build --no-deps install_data[0m
+[41.787s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cadt02_interfaces)
+[42.107s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces' for CMake module files
+[42.108s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces' for CMake config files
+[42.110s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cadt02_interfaces', 'cmake_prefix_path')
+[42.453s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/cmake_prefix_path.ps1'
+[42.454s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/cmake_prefix_path.dsv'
+[42.455s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/cmake_prefix_path.sh'
+[42.457s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib'
+[42.457s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cadt02_interfaces', 'ld_library_path_lib')
+[42.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/ld_library_path_lib.ps1'
+[42.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/ld_library_path_lib.dsv'
+[42.784s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/ld_library_path_lib.sh'
+[42.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/bin'
+[42.786s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/pkgconfig/cadt02_interfaces.pc'
+[42.787s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages'
+[42.788s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cadt02_interfaces', 'pythonpath')
+[43.133s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/pythonpath.ps1'
+[43.135s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/pythonpath.dsv'
+[43.136s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/hook/pythonpath.sh'
+[43.138s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/bin'
+[43.439s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.ps1'
+[43.441s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.dsv'
+[43.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.sh'
+[43.443s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.bash'
+[43.444s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.zsh'
+[43.445s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/colcon-core/packages/cadt02_interfaces)
+[43.449s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/odometry_cont' with build type 'ament_python'
+[43.449s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('odometry_cont', 'ament_prefix_path')
+[43.740s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/hook/ament_prefix_path.ps1'
+[43.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/hook/ament_prefix_path.dsv'
+[43.742s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/hook/ament_prefix_path.sh'
+[44.031s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[44.032s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[44.911s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_listener', 'pythonpath_develop')
+[44.913s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/build --no-deps install_data[0m
+[45.205s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/share/keyboard_listener/hook/pythonpath_develop.ps1'
+[45.206s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/share/keyboard_listener/hook/pythonpath_develop.dsv'
+[45.207s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/share/keyboard_listener/hook/pythonpath_develop.sh'
+[45.497s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener' for CMake module files
+[45.498s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener' for CMake config files
+[45.499s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib'
+[45.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/bin'
+[45.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/pkgconfig/keyboard_listener.pc'
+[45.500s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages'
+[45.500s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_listener', 'pythonpath')
+[45.791s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/hook/pythonpath.ps1'
+[45.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/hook/pythonpath.dsv'
+[45.793s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/hook/pythonpath.sh'
+[45.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/bin'
+[45.795s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(keyboard_listener)
+[46.085s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/package.ps1'
+[46.087s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/package.dsv'
+[46.088s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/package.sh'
+[46.089s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/package.bash'
+[46.089s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener/package.zsh'
+[46.090s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/colcon-core/packages/keyboard_listener)
+[46.090s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_robot', 'pythonpath_develop')
+[46.095s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/build --no-deps install_data[0m
+[46.387s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/share/my_robot/hook/pythonpath_develop.ps1'
+[46.388s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/share/my_robot/hook/pythonpath_develop.dsv'
+[46.389s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/share/my_robot/hook/pythonpath_develop.sh'
+[46.682s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot' for CMake module files
+[46.683s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot' for CMake config files
+[46.684s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib'
+[46.684s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/bin'
+[46.685s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/pkgconfig/my_robot.pc'
+[46.685s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages'
+[46.685s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_robot', 'pythonpath')
+[46.979s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/hook/pythonpath.ps1'
+[46.980s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/hook/pythonpath.dsv'
+[46.981s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/hook/pythonpath.sh'
+[46.982s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/bin'
+[46.982s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_robot)
+[47.274s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/package.ps1'
+[47.276s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/package.dsv'
+[47.277s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/package.sh'
+[47.278s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/package.bash'
+[47.279s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot/package.zsh'
+[47.279s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/colcon-core/packages/my_robot)
+[47.280s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('auto_r2', 'pythonpath_develop')
+[47.285s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/build --no-deps install_data[0m
+[47.575s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/share/auto_r2/hook/pythonpath_develop.ps1'
+[47.576s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/share/auto_r2/hook/pythonpath_develop.dsv'
+[47.577s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/share/auto_r2/hook/pythonpath_develop.sh'
+[47.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2' for CMake module files
+[47.870s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2' for CMake config files
+[47.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib'
+[47.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/bin'
+[47.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/pkgconfig/auto_r2.pc'
+[47.872s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages'
+[47.872s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('auto_r2', 'pythonpath')
+[48.167s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/hook/pythonpath.ps1'
+[48.168s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/hook/pythonpath.dsv'
+[48.169s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/hook/pythonpath.sh'
+[48.170s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/bin'
+[48.170s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(auto_r2)
+[48.461s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/package.ps1'
+[48.463s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/package.dsv'
+[48.464s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/package.sh'
+[48.465s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/package.bash'
+[48.466s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2/package.zsh'
+[48.466s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/colcon-core/packages/auto_r2)
+[48.467s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'pythonpath_develop')
+[48.471s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build --no-deps install_data[0m
+[48.764s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/share/my_package/hook/pythonpath_develop.ps1'
+[48.766s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/share/my_package/hook/pythonpath_develop.dsv'
+[48.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/share/my_package/hook/pythonpath_develop.sh'
+[49.059s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package' for CMake module files
+[49.061s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package' for CMake config files
+[49.062s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib'
+[49.062s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/bin'
+[49.062s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/pkgconfig/my_package.pc'
+[49.063s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages'
+[49.063s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_package', 'pythonpath')
+[49.360s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/hook/pythonpath.ps1'
+[49.361s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/hook/pythonpath.dsv'
+[49.362s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/hook/pythonpath.sh'
+[49.363s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/bin'
+[49.363s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_package)
+[49.656s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/package.ps1'
+[49.658s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/package.dsv'
+[49.659s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/package.sh'
+[49.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/package.bash'
+[49.660s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package/package.zsh'
+[49.661s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/colcon-core/packages/my_package)
+[49.662s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('movement', 'pythonpath_develop')
+[49.666s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build --no-deps install_data[0m
+[49.960s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/share/movement/hook/pythonpath_develop.ps1'
+[49.961s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/share/movement/hook/pythonpath_develop.dsv'
+[49.962s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/share/movement/hook/pythonpath_develop.sh'
+[50.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement' for CMake module files
+[50.257s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement' for CMake config files
+[50.258s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib'
+[50.259s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/bin'
+[50.259s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/pkgconfig/movement.pc'
+[50.259s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages'
+[50.259s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('movement', 'pythonpath')
+[50.554s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/hook/pythonpath.ps1'
+[50.555s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/hook/pythonpath.dsv'
+[50.556s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/hook/pythonpath.sh'
+[50.557s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/bin'
+[50.557s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(movement)
+[50.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/package.ps1'
+[50.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/package.dsv'
+[50.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/package.sh'
+[50.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/package.bash'
+[50.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement/package.zsh'
+[50.853s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/colcon-core/packages/movement)
+[50.856s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/ros_imu' with build type 'ament_python'
+[50.856s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros_imu', 'ament_prefix_path')
+[51.149s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/hook/ament_prefix_path.ps1'
+[51.151s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/hook/ament_prefix_path.dsv'
+[51.151s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/hook/ament_prefix_path.sh'
+[51.442s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[51.443s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[52.328s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/keyboard_publisher' with build type 'ament_python'
+[52.329s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_publisher', 'ament_prefix_path')
+[52.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/hook/ament_prefix_path.ps1'
+[52.625s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/hook/ament_prefix_path.dsv'
+[52.626s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/hook/ament_prefix_path.sh'
+[52.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[52.918s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[54.327s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/odometry_cont'
+[54.622s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[54.622s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[56.036s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/ros_imu'
+[56.330s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[56.330s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[57.750s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/keyboard_publisher'
+[58.045s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[58.045s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[60.431s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build --no-deps install_data[0m
+[60.523s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build --no-deps install_data[0m
+[60.535s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher': LD_LIBRARY_PATH=/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/build --no-deps install_data[0m
+[62.224s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('odometry_cont', 'pythonpath_develop')
+[62.227s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build --no-deps install_data[0m
+[62.531s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/share/odometry_cont/hook/pythonpath_develop.ps1'
+[62.532s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/share/odometry_cont/hook/pythonpath_develop.dsv'
+[62.533s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/share/odometry_cont/hook/pythonpath_develop.sh'
+[62.823s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont' for CMake module files
+[62.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont' for CMake config files
+[62.825s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib'
+[62.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/bin'
+[62.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/pkgconfig/odometry_cont.pc'
+[62.826s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages'
+[62.826s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('odometry_cont', 'pythonpath')
+[63.117s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/hook/pythonpath.ps1'
+[63.119s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/hook/pythonpath.dsv'
+[63.119s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/hook/pythonpath.sh'
+[63.121s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/bin'
+[63.121s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(odometry_cont)
+[63.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/package.ps1'
+[63.412s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/package.dsv'
+[63.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/package.sh'
+[63.414s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/package.bash'
+[63.415s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont/package.zsh'
+[63.415s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/colcon-core/packages/odometry_cont)
+[63.419s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros_imu', 'pythonpath_develop')
+[63.420s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build --no-deps install_data[0m
+[63.718s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/share/ros_imu/hook/pythonpath_develop.ps1'
+[63.719s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/share/ros_imu/hook/pythonpath_develop.dsv'
+[63.720s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/share/ros_imu/hook/pythonpath_develop.sh'
+[64.016s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu' for CMake module files
+[64.017s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu' for CMake config files
+[64.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib'
+[64.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/bin'
+[64.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/pkgconfig/ros_imu.pc'
+[64.018s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages'
+[64.019s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('ros_imu', 'pythonpath')
+[64.314s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/hook/pythonpath.ps1'
+[64.316s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/hook/pythonpath.dsv'
+[64.316s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/hook/pythonpath.sh'
+[64.317s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/bin'
+[64.318s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(ros_imu)
+[64.611s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/package.ps1'
+[64.613s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/package.dsv'
+[64.614s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/package.sh'
+[64.615s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/package.bash'
+[64.616s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu/package.zsh'
+[64.616s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/colcon-core/packages/ros_imu)
+[64.617s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_publisher', 'pythonpath_develop')
+[64.620s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher' returned '0': LD_LIBRARY_PATH=/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/build --no-deps install_data[0m
+[64.918s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/share/keyboard_publisher/hook/pythonpath_develop.ps1'
+[64.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/share/keyboard_publisher/hook/pythonpath_develop.dsv'
+[64.920s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/share/keyboard_publisher/hook/pythonpath_develop.sh'
+[65.218s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher' for CMake module files
+[65.219s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher' for CMake config files
+[65.220s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib'
+[65.220s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/bin'
+[65.221s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/pkgconfig/keyboard_publisher.pc'
+[65.221s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages'
+[65.221s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('keyboard_publisher', 'pythonpath')
+[65.520s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/hook/pythonpath.ps1'
+[65.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/hook/pythonpath.dsv'
+[65.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/hook/pythonpath.sh'
+[65.523s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/bin'
+[65.523s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(keyboard_publisher)
+[65.819s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/package.ps1'
+[65.821s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/package.dsv'
+[65.822s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/package.sh'
+[65.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/package.bash'
+[65.823s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher/package.zsh'
+[65.824s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/colcon-core/packages/keyboard_publisher)
+[65.825s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[65.825s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[65.826s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[65.826s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[66.129s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[66.130s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[66.130s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[66.184s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[66.514s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/local_setup.ps1'
+[66.517s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/cadt-02/Documents/can_test_usb/ros2_can/install/_local_setup_util_ps1.py'
+[66.519s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/setup.ps1'
+[66.815s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/local_setup.sh'
+[66.817s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/cadt-02/Documents/can_test_usb/ros2_can/install/_local_setup_util_sh.py'
+[66.818s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/setup.sh'
+[67.113s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/local_setup.bash'
+[67.114s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/setup.bash'
+[67.409s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/local_setup.zsh'
+[67.411s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/cadt-02/Documents/can_test_usb/ros2_can/install/setup.zsh'

@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_robot = my_robot.my_robot:main'
+            'my_robot = my_robot.my_robot:main',
+            'arduino_feedback = my_robot.arduino_feedback:main',
         ],
     },
 )

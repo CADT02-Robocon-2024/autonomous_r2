@@ -1,0 +1,57 @@
+[16.569s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/odometry_cont': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/odometry_cont build --build-base /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build install --record /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/install.log --install-scripts $base/lib/odometry_cont --single-version-externally-managed
+[16.913s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[16.913s] !!
+[16.914s] 
+[16.914s]         ********************************************************************************
+[16.914s]         Usage of dash-separated 'script-dir' will not be supported in future
+[16.914s]         versions. Please use the underscore name 'script_dir' instead.
+[16.914s] 
+[16.914s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[16.914s]         or your builds will no longer be supported.
+[16.915s] 
+[16.915s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[16.915s]         ********************************************************************************
+[16.915s] 
+[16.915s] !!
+[16.915s]   opt = self.warn_dash_deprecation(opt, section)
+[17.186s] running egg_info
+[17.229s] writing ../../build/odometry_cont/odometry_cont.egg-info/PKG-INFO
+[17.230s] writing dependency_links to ../../build/odometry_cont/odometry_cont.egg-info/dependency_links.txt
+[17.231s] writing entry points to ../../build/odometry_cont/odometry_cont.egg-info/entry_points.txt
+[17.231s] writing requirements to ../../build/odometry_cont/odometry_cont.egg-info/requires.txt
+[17.232s] writing top-level names to ../../build/odometry_cont/odometry_cont.egg-info/top_level.txt
+[17.571s] reading manifest file '../../build/odometry_cont/odometry_cont.egg-info/SOURCES.txt'
+[17.573s] writing manifest file '../../build/odometry_cont/odometry_cont.egg-info/SOURCES.txt'
+[17.574s] running build
+[17.575s] running build_py
+[17.577s] copying odometry_cont/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build/lib/odometry_cont
+[17.577s] copying odometry_cont/PID.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build/lib/odometry_cont
+[17.578s] copying script_odom/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build/lib/script_odom
+[17.578s] copying script_odom/odometry.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build/lib/script_odom
+[17.579s] running install
+[17.579s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[17.579s] !!
+[17.579s] 
+[17.579s]         ********************************************************************************
+[17.579s]         Please avoid running ``setup.py`` directly.
+[17.580s]         Instead, use pypa/build, pypa/installer or other
+[17.580s]         standards-based tools.
+[17.580s] 
+[17.580s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[17.580s]         ********************************************************************************
+[17.580s] 
+[17.580s] !!
+[17.580s]   self.initialize_options()
+[17.590s] running install_lib
+[17.635s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build/lib/script_odom/odometry.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages/script_odom
+[17.639s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages/script_odom/odometry.py to odometry.cpython-38.pyc
+[17.643s] running install_data
+[17.687s] copying resource/odometry_cont -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/ament_index/resource_index/packages
+[17.687s] copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont
+[17.688s] running install_egg_info
+[17.735s] removing '/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages/odometry_cont-0.0.0-py3.8.egg-info' (and everything under it)
+[17.740s] Copying ../../build/odometry_cont/odometry_cont.egg-info to /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages/odometry_cont-0.0.0-py3.8.egg-info
+[17.741s] running install_scripts
+[17.845s] Installing odometry_cont script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/odometry_cont
+[17.846s] writing list of installed files to '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/install.log'
+[17.930s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/odometry_cont' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/odometry_cont build --build-base /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build install --record /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/install.log --install-scripts $base/lib/odometry_cont --single-version-externally-managed

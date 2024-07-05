@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'movement = scripts.movement:main'
+            'movement = scripts.movement:main',
+            'smart_driver_send = scripts.smart_driver:main'
         ],
     },
 )

@@ -1,0 +1,61 @@
+[12.305s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/build --no-deps install_data
+[12.689s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[12.689s] !!
+[12.689s] 
+[12.689s]         ********************************************************************************
+[12.689s]         Usage of dash-separated 'script-dir' will not be supported in future
+[12.689s]         versions. Please use the underscore name 'script_dir' instead.
+[12.690s] 
+[12.690s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[12.690s]         or your builds will no longer be supported.
+[12.690s] 
+[12.690s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[12.690s]         ********************************************************************************
+[12.690s] 
+[12.691s] !!
+[12.691s]   opt = self.warn_dash_deprecation(opt, section)
+[13.221s] running develop
+[13.222s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[13.222s] !!
+[13.222s] 
+[13.222s]         ********************************************************************************
+[13.223s]         Please avoid running ``setup.py`` and ``easy_install``.
+[13.223s]         Instead, use pypa/build, pypa/installer or other
+[13.223s]         standards-based tools.
+[13.223s] 
+[13.223s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[13.223s]         ********************************************************************************
+[13.223s] 
+[13.224s] !!
+[13.224s]   easy_install.initialize_options(self)
+[13.313s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[13.313s] !!
+[13.314s] 
+[13.314s]         ********************************************************************************
+[13.314s]         Please avoid running ``setup.py`` directly.
+[13.314s]         Instead, use pypa/build, pypa/installer or other
+[13.314s]         standards-based tools.
+[13.314s] 
+[13.314s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[13.315s]         ********************************************************************************
+[13.315s] 
+[13.315s] !!
+[13.315s]   self.initialize_options()
+[13.823s] running egg_info
+[13.866s] writing my_robot.egg-info/PKG-INFO
+[13.866s] writing dependency_links to my_robot.egg-info/dependency_links.txt
+[13.867s] writing entry points to my_robot.egg-info/entry_points.txt
+[13.870s] writing requirements to my_robot.egg-info/requires.txt
+[13.871s] writing top-level names to my_robot.egg-info/top_level.txt
+[13.962s] reading manifest file 'my_robot.egg-info/SOURCES.txt'
+[13.965s] writing manifest file 'my_robot.egg-info/SOURCES.txt'
+[14.135s] running build_ext
+[14.135s] Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages/my-robot.egg-link (link to .)
+[14.139s] Installing arduino_feedback script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/my_robot
+[14.140s] Installing my_robot script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/my_robot
+[14.142s] 
+[14.142s] Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot
+[14.145s] running install_data
+[14.145s] copying resource/my_robot -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/ament_index/resource_index/packages
+[14.145s] copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot
+[18.472s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/build --no-deps install_data
