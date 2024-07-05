@@ -1,0 +1,101 @@
+/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2024-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running develop
+/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+Removing /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros-imu.egg-link (link to .)
+/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2024-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running egg_info
+writing ../../build/ros_imu/ros_imu.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros_imu/ros_imu.egg-info/dependency_links.txt
+writing entry points to ../../build/ros_imu/ros_imu.egg-info/entry_points.txt
+writing requirements to ../../build/ros_imu/ros_imu.egg-info/requires.txt
+writing top-level names to ../../build/ros_imu/ros_imu.egg-info/top_level.txt
+reading manifest file '../../build/ros_imu/ros_imu.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros_imu/ros_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build
+creating /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build/lib
+creating /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build/lib/ros_imu
+copying ros_imu/ros_imu.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build/lib/ros_imu
+copying ros_imu/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build/lib/ros_imu
+running install
+/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros_imu
+copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build/lib/ros_imu/ros_imu.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros_imu
+copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build/lib/ros_imu/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros_imu
+byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros_imu/ros_imu.py to ros_imu.cpython-38.pyc
+byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros_imu/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying resource/ros_imu -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ament_index/resource_index/packages
+copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu
+running install_egg_info
+Copying ../../build/ros_imu/ros_imu.egg-info to /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros_imu-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ros_imu script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/ros_imu
+writing list of installed files to '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/install.log'

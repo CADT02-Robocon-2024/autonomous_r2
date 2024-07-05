@@ -1,0 +1,226 @@
+[8.198s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy /home/cadt-02/.local/bin/cmake /home/cadt-02/Documents/can_test_usb/ros2_can/src/cadt02_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces
+[15.500s] -- The C compiler identification is GNU 9.4.0
+[15.502s] -- The CXX compiler identification is GNU 9.4.0
+[15.502s] -- Detecting C compiler ABI info
+[15.503s] -- Detecting C compiler ABI info - done
+[15.504s] -- Check for working C compiler: /usr/bin/cc - skipped
+[15.505s] -- Detecting C compile features
+[15.505s] -- Detecting C compile features - done
+[15.507s] -- Detecting CXX compiler ABI info
+[15.510s] -- Detecting CXX compiler ABI info - done
+[15.510s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[15.510s] -- Detecting CXX compile features
+[15.510s] -- Detecting CXX compile features - done
+[15.510s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[15.510s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[15.510s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.511s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[15.511s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[15.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.511s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[15.512s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[15.514s] -- Found FastRTPS: /opt/ros/foxy/include  
+[15.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.516s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[15.516s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[15.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[15.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.518s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[15.520s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[15.521s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[15.521s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.521s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[15.522s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[15.522s] -- Found PythonExtra: .so  
+[15.522s] -- Configuring done (3.1s)
+[15.523s] -- Generating done (0.1s)
+[15.524s] -- Build files have been written to: /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces
+[15.525s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[15.526s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.527s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.527s]   the cmake_policy command to set the policy and suppress this warning.
+[15.527s] 
+[15.530s] Call Stack (most recent call first):
+[15.531s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[15.531s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[15.531s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[15.531s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[15.531s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[15.531s]   CMakeLists.txt:19 (find_package)
+[15.531s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.532s] [0m
+[15.532s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[15.533s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.534s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.535s]   the cmake_policy command to set the policy and suppress this warning.
+[15.536s] 
+[15.537s] Call Stack (most recent call first):
+[15.537s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[15.537s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[15.540s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.541s] [0m
+[15.541s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[15.541s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.541s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.541s]   the cmake_policy command to set the policy and suppress this warning.
+[15.541s] 
+[15.542s] Call Stack (most recent call first):
+[15.542s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[15.543s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[15.544s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[15.544s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.545s] [0m
+[15.546s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[15.546s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.547s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.547s]   the cmake_policy command to set the policy and suppress this warning.
+[15.547s] 
+[15.550s] Call Stack (most recent call first):
+[15.551s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[15.551s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[15.551s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[15.551s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[15.551s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.551s] [0m
+[15.552s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[15.552s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[15.552s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[15.552s]   the cmake_policy command to set the policy and suppress this warning.
+[15.552s] 
+[15.552s] Call Stack (most recent call first):
+[15.552s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[15.552s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[15.553s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[15.553s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[15.553s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.553s] [0m
+[15.554s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy /home/cadt-02/.local/bin/cmake /home/cadt-02/Documents/can_test_usb/ros2_can/src/cadt02_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces
+[15.555s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --build /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces -- -j6 -l6
+[15.622s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[15.661s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.697s] [  6%] Built target cadt02_interfaces__cpp
+[16.734s] [  9%] [32mBuilding C object CMakeFiles/cadt02_interfaces__rosidl_generator_c.dir/rosidl_generator_c/cadt02_interfaces/msg/detail/way_point__functions.c.o[0m
+[16.742s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[16.753s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.756s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[16.979s] [ 22%] [32m[1mLinking C shared library libcadt02_interfaces__rosidl_generator_c.so[0m
+[17.113s] [ 22%] Built target cadt02_interfaces__rosidl_generator_c
+[17.153s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.161s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.861s] [ 32%] [32mBuilding CXX object CMakeFiles/cadt02_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cadt02_interfaces/msg/way_point__type_support.cpp.o[0m
+[17.909s] [ 35%] [32mBuilding CXX object CMakeFiles/cadt02_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cadt02_interfaces/msg/detail/way_point__type_support.cpp.o[0m
+[17.933s] [ 38%] [32mBuilding CXX object CMakeFiles/cadt02_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cadt02_interfaces/msg/detail/dds_fastrtps/way_point__type_support.cpp.o[0m
+[18.161s] [ 41%] [32mBuilding CXX object CMakeFiles/cadt02_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/cadt02_interfaces/msg/way_point__type_support.cpp.o[0m
+[18.313s] [ 45%] [32m[1mLinking CXX shared library libcadt02_interfaces__rosidl_typesupport_c.so[0m
+[18.389s] [ 48%] [32mBuilding C object CMakeFiles/cadt02_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cadt02_interfaces/msg/detail/way_point__type_support.c.o[0m
+[18.498s] [ 48%] Built target cadt02_interfaces__rosidl_typesupport_c
+[18.578s] [ 51%] [32m[1mLinking C shared library libcadt02_interfaces__rosidl_typesupport_introspection_c.so[0m
+[18.703s] [ 51%] Built target cadt02_interfaces__rosidl_typesupport_introspection_c
+[19.240s] [ 54%] [32m[1mLinking CXX shared library libcadt02_interfaces__rosidl_typesupport_cpp.so[0m
+[19.295s] [ 58%] [32m[1mLinking CXX shared library libcadt02_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[19.307s] [ 58%] Built target cadt02_interfaces__rosidl_typesupport_cpp
+[19.461s] [ 58%] Built target cadt02_interfaces__rosidl_typesupport_introspection_cpp
+[19.781s] [ 61%] [32m[1mLinking CXX shared library libcadt02_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.178s] [ 61%] Built target cadt02_interfaces__rosidl_typesupport_fastrtps_cpp
+[20.210s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.801s] [ 67%] [32mBuilding CXX object CMakeFiles/cadt02_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cadt02_interfaces/msg/detail/way_point__type_support_c.cpp.o[0m
+[21.581s] [ 70%] [32m[1mLinking CXX shared library libcadt02_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[21.725s] [ 70%] Built target cadt02_interfaces__rosidl_typesupport_fastrtps_c
+[21.744s] [ 70%] Built target cadt02_interfaces
+[21.760s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.539s] [ 74%] Built target cadt02_interfaces__py
+[22.557s] [ 77%] [32mBuilding C object CMakeFiles/cadt02_interfaces__python.dir/rosidl_generator_py/cadt02_interfaces/msg/_way_point_s.c.o[0m
+[22.782s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/cadt02_interfaces/libcadt02_interfaces__python.so[0m
+[22.831s] [ 80%] Built target cadt02_interfaces__python
+[22.851s] [ 87%] [32mBuilding C object CMakeFiles/cadt02_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cadt02_interfaces/_cadt02_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[22.851s] [ 87%] [32mBuilding C object CMakeFiles/cadt02_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cadt02_interfaces/_cadt02_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[22.851s] [ 90%] [32mBuilding C object CMakeFiles/cadt02_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cadt02_interfaces/_cadt02_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[23.010s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[23.021s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[23.022s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[23.067s] [100%] Built target cadt02_interfaces__rosidl_typesupport_introspection_c__pyext
+[23.084s] [100%] Built target cadt02_interfaces__rosidl_typesupport_c__pyext
+[23.125s] [100%] Built target cadt02_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[29.470s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --build /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces -- -j6 -l6
+[32.406s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --install /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces
+[32.476s] -- Install configuration: ""
+[32.477s] -- Execute custom install script
+[32.478s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/rosidl_interfaces/cadt02_interfaces
+[32.484s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__functions.h
+[32.490s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__struct.h
+[32.495s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__type_support.h
+[32.501s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_generator_c__visibility_control.h
+[32.506s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/way_point.h
+[32.513s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/library_path.sh
+[32.518s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/library_path.dsv
+[32.526s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_fastrtps_c.h
+[32.532s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[32.538s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_fastrtps_c.so
+[32.545s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_fastrtps_cpp.hpp
+[32.551s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[32.557s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[32.563s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_introspection_c.h
+[32.569s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[32.575s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__builder.hpp
+[32.581s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__struct.hpp
+[32.586s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__traits.hpp
+[32.592s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__type_support.hpp
+[32.598s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[32.605s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/way_point.hpp
+[32.611s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_introspection_cpp.hpp
+[32.617s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/pythonpath.sh
+[32.622s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/pythonpath.dsv
+[32.628s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/__init__.py
+[32.635s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/msg/__init__.py
+[32.641s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/msg/_way_point.py
+[32.647s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[32.653s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[32.659s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[32.665s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__python.so
+[32.671s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/msg/WayPoint.idl
+[32.676s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/msg/WayPoint.msg
+[32.682s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/package_run_dependencies/cadt02_interfaces
+[32.688s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/parent_prefix_path/cadt02_interfaces
+[32.694s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/ament_prefix_path.sh
+[32.700s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/ament_prefix_path.dsv
+[32.706s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/path.sh
+[32.711s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/path.dsv
+[32.717s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.bash
+[32.723s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.sh
+[32.729s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.zsh
+[32.735s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.dsv
+[32.740s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.dsv
+[32.746s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/packages/cadt02_interfaces
+[32.751s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/rosidl_cmake-extras.cmake
+[32.756s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.762s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[32.767s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[32.773s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.778s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[32.786s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[32.789s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfacesConfig.cmake
+[32.794s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfacesConfig-version.cmake
+[32.800s] -- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.xml
+[32.805s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_generator_c.so
+[32.810s] -- Set non-toolchain portion of runtime path of "/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_generator_c.so" to ""
+[32.810s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_introspection_c.so
+[32.810s] -- Set non-toolchain portion of runtime path of "/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[32.810s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_c.so
+[32.810s] -- Set non-toolchain portion of runtime path of "/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_c.so" to ""
+[32.810s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_introspection_cpp.so
+[32.810s] -- Set non-toolchain portion of runtime path of "/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[32.811s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_cpp.so
+[32.811s] -- Set non-toolchain portion of runtime path of "/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_cpp.so" to ""
+[32.891s] Compiling '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/__init__.py'...
+[32.903s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_generator_cExport.cmake
+[32.903s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_generator_cExport-noconfig.cmake
+[32.904s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[32.904s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[32.904s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cExport.cmake
+[32.905s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[32.905s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_generator_cppExport.cmake
+[32.905s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[32.906s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[32.906s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cppExport.cmake
+[32.906s] -- Installing: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[32.921s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy /home/cadt-02/.local/bin/cmake --install /home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces

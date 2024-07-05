@@ -1,0 +1,988 @@
+[0.000000] (-) TimerEvent: {}
+[0.000829] (auto_r2) JobQueued: {'identifier': 'auto_r2', 'dependencies': OrderedDict()}
+[0.001370] (cadt02_interfaces) JobQueued: {'identifier': 'cadt02_interfaces', 'dependencies': OrderedDict()}
+[0.001590] (keyboard_listener) JobQueued: {'identifier': 'keyboard_listener', 'dependencies': OrderedDict()}
+[0.002203] (movement) JobQueued: {'identifier': 'movement', 'dependencies': OrderedDict()}
+[0.002540] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002720] (my_robot) JobQueued: {'identifier': 'my_robot', 'dependencies': OrderedDict()}
+[0.002815] (odometry_cont) JobQueued: {'identifier': 'odometry_cont', 'dependencies': OrderedDict()}
+[0.002940] (ros_imu) JobQueued: {'identifier': 'ros_imu', 'dependencies': OrderedDict()}
+[0.003051] (keyboard_publisher) JobQueued: {'identifier': 'keyboard_publisher', 'dependencies': OrderedDict([('cadt02_interfaces', '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces')])}
+[0.003125] (cadt02_interfaces) JobStarted: {'identifier': 'cadt02_interfaces'}
+[0.098955] (-) TimerEvent: {}
+[0.202312] (-) TimerEvent: {}
+[0.303072] (-) TimerEvent: {}
+[0.404859] (-) TimerEvent: {}
+[0.506471] (-) TimerEvent: {}
+[0.607158] (-) TimerEvent: {}
+[0.708368] (-) TimerEvent: {}
+[0.809215] (-) TimerEvent: {}
+[0.909983] (-) TimerEvent: {}
+[1.010991] (-) TimerEvent: {}
+[1.111680] (-) TimerEvent: {}
+[1.203629] (auto_r2) JobStarted: {'identifier': 'auto_r2'}
+[1.211856] (-) TimerEvent: {}
+[1.312614] (-) TimerEvent: {}
+[1.413633] (-) TimerEvent: {}
+[1.515636] (-) TimerEvent: {}
+[1.616786] (-) TimerEvent: {}
+[1.718497] (-) TimerEvent: {}
+[1.820496] (-) TimerEvent: {}
+[1.921716] (-) TimerEvent: {}
+[2.024094] (-) TimerEvent: {}
+[2.126534] (-) TimerEvent: {}
+[2.228160] (-) TimerEvent: {}
+[2.329618] (-) TimerEvent: {}
+[2.396355] (keyboard_listener) JobStarted: {'identifier': 'keyboard_listener'}
+[2.429901] (-) TimerEvent: {}
+[2.530826] (-) TimerEvent: {}
+[2.632446] (-) TimerEvent: {}
+[2.733161] (-) TimerEvent: {}
+[2.834003] (-) TimerEvent: {}
+[2.935617] (-) TimerEvent: {}
+[3.036487] (-) TimerEvent: {}
+[3.137351] (-) TimerEvent: {}
+[3.238610] (-) TimerEvent: {}
+[3.339357] (-) TimerEvent: {}
+[3.440571] (-) TimerEvent: {}
+[3.541469] (-) TimerEvent: {}
+[3.644469] (-) TimerEvent: {}
+[3.745318] (-) TimerEvent: {}
+[3.847581] (-) TimerEvent: {}
+[3.892224] (movement) JobStarted: {'identifier': 'movement'}
+[3.951956] (-) TimerEvent: {}
+[4.052807] (-) TimerEvent: {}
+[4.153556] (-) TimerEvent: {}
+[4.257210] (-) TimerEvent: {}
+[4.357923] (-) TimerEvent: {}
+[4.459238] (-) TimerEvent: {}
+[4.559954] (-) TimerEvent: {}
+[4.661594] (-) TimerEvent: {}
+[4.763130] (-) TimerEvent: {}
+[4.864261] (-) TimerEvent: {}
+[4.965409] (-) TimerEvent: {}
+[5.066752] (-) TimerEvent: {}
+[5.168758] (-) TimerEvent: {}
+[5.269806] (-) TimerEvent: {}
+[5.370934] (-) TimerEvent: {}
+[5.400764] (my_package) JobStarted: {'identifier': 'my_package'}
+[5.471185] (-) TimerEvent: {}
+[5.571888] (-) TimerEvent: {}
+[5.673229] (-) TimerEvent: {}
+[5.774114] (-) TimerEvent: {}
+[5.874831] (-) TimerEvent: {}
+[5.975539] (-) TimerEvent: {}
+[6.076464] (-) TimerEvent: {}
+[6.178676] (-) TimerEvent: {}
+[6.279509] (-) TimerEvent: {}
+[6.382689] (-) TimerEvent: {}
+[6.484463] (-) TimerEvent: {}
+[6.585546] (-) TimerEvent: {}
+[6.686922] (-) TimerEvent: {}
+[6.788552] (-) TimerEvent: {}
+[6.885761] (my_robot) JobStarted: {'identifier': 'my_robot'}
+[6.888779] (-) TimerEvent: {}
+[6.989332] (-) TimerEvent: {}
+[7.090501] (-) TimerEvent: {}
+[7.191390] (-) TimerEvent: {}
+[7.292068] (-) TimerEvent: {}
+[7.393035] (-) TimerEvent: {}
+[7.494133] (-) TimerEvent: {}
+[7.595225] (-) TimerEvent: {}
+[7.695938] (-) TimerEvent: {}
+[7.796798] (-) TimerEvent: {}
+[7.897849] (-) TimerEvent: {}
+[7.998839] (-) TimerEvent: {}
+[8.100270] (-) TimerEvent: {}
+[8.201046] (-) TimerEvent: {}
+[8.302906] (-) TimerEvent: {}
+[8.373295] (cadt02_interfaces) JobProgress: {'identifier': 'cadt02_interfaces', 'progress': 'cmake'}
+[8.374753] (cadt02_interfaces) JobProgress: {'identifier': 'cadt02_interfaces', 'progress': 'build'}
+[8.376023] (cadt02_interfaces) Command: {'cmd': ['/home/cadt-02/.local/bin/cmake', '--build', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces', 'env': OrderedDict([('NX_ROOT', '/home/cadt-02/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf'), ('MAIL', '/var/mail/cadt-02'), ('USER', 'cadt-02'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'x11'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/cadt-02'), ('OLDPWD', '/home/cadt-02'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('JETSON_L4T', '35.4.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('LC_MONETARY', 'km_KH'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6287'), ('PULSE_SCRIPT', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa'), ('COLCON_PREFIX_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cadt-02'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1423623045966'), ('PULSE_SERVER', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cadt-02'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'km_KH'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1001'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'km_KH'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/cadt-02/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('TERMINATOR_UUID', 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('NX_SESSION_ID', '70941F422D5DB35CC687A0E5DC368BB5'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'km_KH'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy'), ('NX_CONNECTION', '172.23.34.154 56590 172.23.34.34 4000'), ('JETSON_P_NUMBER', 'p3767-0003'), ('NXDIR', '/usr/NX')]), 'shell': False}
+[8.403150] (-) TimerEvent: {}
+[8.503987] (-) TimerEvent: {}
+[8.604663] (-) TimerEvent: {}
+[8.705318] (-) TimerEvent: {}
+[8.805992] (-) TimerEvent: {}
+[8.906712] (-) TimerEvent: {}
+[9.007526] (-) TimerEvent: {}
+[9.108350] (-) TimerEvent: {}
+[9.209029] (-) TimerEvent: {}
+[9.309689] (-) TimerEvent: {}
+[9.410394] (-) TimerEvent: {}
+[9.511091] (-) TimerEvent: {}
+[9.612762] (-) TimerEvent: {}
+[9.715719] (-) TimerEvent: {}
+[9.817352] (-) TimerEvent: {}
+[9.918230] (-) TimerEvent: {}
+[10.022200] (-) TimerEvent: {}
+[10.122975] (-) TimerEvent: {}
+[10.223941] (-) TimerEvent: {}
+[10.324892] (-) TimerEvent: {}
+[10.425603] (-) TimerEvent: {}
+[10.526669] (-) TimerEvent: {}
+[10.628386] (-) TimerEvent: {}
+[10.729996] (-) TimerEvent: {}
+[10.830810] (-) TimerEvent: {}
+[10.931454] (-) TimerEvent: {}
+[11.032094] (-) TimerEvent: {}
+[11.132769] (-) TimerEvent: {}
+[11.233455] (-) TimerEvent: {}
+[11.334827] (-) TimerEvent: {}
+[11.436332] (-) TimerEvent: {}
+[11.538887] (-) TimerEvent: {}
+[11.640743] (-) TimerEvent: {}
+[11.743750] (-) TimerEvent: {}
+[11.844567] (-) TimerEvent: {}
+[11.945962] (-) TimerEvent: {}
+[12.047265] (-) TimerEvent: {}
+[12.148029] (-) TimerEvent: {}
+[12.249645] (-) TimerEvent: {}
+[12.352972] (-) TimerEvent: {}
+[12.454532] (-) TimerEvent: {}
+[12.555327] (-) TimerEvent: {}
+[12.655973] (-) TimerEvent: {}
+[12.756603] (-) TimerEvent: {}
+[12.857282] (-) TimerEvent: {}
+[12.957989] (-) TimerEvent: {}
+[13.059025] (-) TimerEvent: {}
+[13.160399] (-) TimerEvent: {}
+[13.262957] (-) TimerEvent: {}
+[13.364286] (-) TimerEvent: {}
+[13.465854] (-) TimerEvent: {}
+[13.567775] (-) TimerEvent: {}
+[13.669728] (-) TimerEvent: {}
+[13.771067] (-) TimerEvent: {}
+[13.872251] (-) TimerEvent: {}
+[13.973838] (-) TimerEvent: {}
+[14.077296] (-) TimerEvent: {}
+[14.180767] (-) TimerEvent: {}
+[14.188886] (cadt02_interfaces) StdoutLine: {'line': b'[  3%] Built target cadt02_interfaces__cpp\n'}
+[14.189809] (cadt02_interfaces) StdoutLine: {'line': b'[ 12%] Built target cadt02_interfaces__rosidl_generator_c\n'}
+[14.190503] (cadt02_interfaces) StdoutLine: {'line': b'[ 29%] Built target cadt02_interfaces__rosidl_typesupport_cpp\n'}
+[14.193769] (cadt02_interfaces) StdoutLine: {'line': b'[ 32%] Built target cadt02_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[14.194014] (cadt02_interfaces) StdoutLine: {'line': b'[ 41%] Built target cadt02_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.194176] (cadt02_interfaces) StdoutLine: {'line': b'[ 51%] Built target cadt02_interfaces__rosidl_typesupport_c\n'}
+[14.194328] (cadt02_interfaces) StdoutLine: {'line': b'[ 61%] Built target cadt02_interfaces__rosidl_typesupport_introspection_c\n'}
+[14.194475] (cadt02_interfaces) StdoutLine: {'line': b'[ 70%] Built target cadt02_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[14.194613] (cadt02_interfaces) StdoutLine: {'line': b'[ 70%] Built target cadt02_interfaces\n'}
+[14.194748] (cadt02_interfaces) StdoutLine: {'line': b'[ 74%] Built target cadt02_interfaces__py\n'}
+[14.194879] (cadt02_interfaces) StdoutLine: {'line': b'[ 80%] Built target cadt02_interfaces__python\n'}
+[14.195011] (cadt02_interfaces) StdoutLine: {'line': b'[ 96%] Built target cadt02_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[14.195299] (cadt02_interfaces) StdoutLine: {'line': b'[ 96%] Built target cadt02_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.195445] (cadt02_interfaces) StdoutLine: {'line': b'[100%] Built target cadt02_interfaces__rosidl_typesupport_c__pyext\n'}
+[14.280825] (-) TimerEvent: {}
+[14.381555] (-) TimerEvent: {}
+[14.482182] (-) TimerEvent: {}
+[14.582858] (-) TimerEvent: {}
+[14.683742] (-) TimerEvent: {}
+[14.784811] (-) TimerEvent: {}
+[14.886008] (-) TimerEvent: {}
+[14.987269] (-) TimerEvent: {}
+[15.089075] (-) TimerEvent: {}
+[15.190107] (-) TimerEvent: {}
+[15.291366] (-) TimerEvent: {}
+[15.392293] (-) TimerEvent: {}
+[15.493521] (-) TimerEvent: {}
+[15.594160] (-) TimerEvent: {}
+[15.695442] (-) TimerEvent: {}
+[15.797691] (-) TimerEvent: {}
+[15.899103] (-) TimerEvent: {}
+[15.923876] (cadt02_interfaces) CommandEnded: {'returncode': 0}
+[15.963321] (auto_r2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[16.001390] (-) TimerEvent: {}
+[16.102238] (-) TimerEvent: {}
+[16.116747] (cadt02_interfaces) JobProgress: {'identifier': 'cadt02_interfaces', 'progress': 'install'}
+[16.202439] (-) TimerEvent: {}
+[16.214242] (cadt02_interfaces) Command: {'cmd': ['/home/cadt-02/.local/bin/cmake', '--install', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces', 'env': OrderedDict([('NX_ROOT', '/home/cadt-02/.nx'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('PULSE_CLIENTCONFIG', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf'), ('MAIL', '/var/mail/cadt-02'), ('USER', 'cadt-02'), ('LC_TIME', 'km_KH'), ('XDG_SESSION_TYPE', 'x11'), ('NX_SYSTEM', '/usr/NX'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/cadt-02'), ('OLDPWD', '/home/cadt-02'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('JETSON_L4T', '35.4.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('JETSON_MODEL', 'NVIDIA Orin Nano Developer Kit'), ('LC_MONETARY', 'km_KH'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '6287'), ('PULSE_SCRIPT', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa'), ('COLCON_PREFIX_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'cadt-02'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (8GB ram)'), ('JETSON_SERIAL_NUMBER', '1423623045966'), ('PULSE_SERVER', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'P3768'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cadt-02'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026'), ('PULSE_RUNTIME_PATH', '/run/user/1000/pulse'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'km_KH'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('PULSE_CONFIG', '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1001'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'km_KH'), ('NX_TEMP', '/tmp'), ('XMODIFIERS', '@im=ibus'), ('XAUTHORITY', '/home/cadt-02/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra23x'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'km_KH'), ('TERMINATOR_UUID', 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'km_KH'), ('NX_SESSION_ID', '70941F422D5DB35CC687A0E5DC368BB5'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'km_KH'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces'), ('NX_RUNNER', '/usr/NX/bin/nxrunner'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'km_KH'), ('LC_PAPER', 'km_KH'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.2'), ('CMAKE_PREFIX_PATH', '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/opt/ros/foxy'), ('NX_CONNECTION', '172.23.34.154 56590 172.23.34.34 4000'), ('JETSON_P_NUMBER', 'p3767-0003'), ('NXDIR', '/usr/NX')]), 'shell': False}
+[16.301735] (cadt02_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.302520] (-) TimerEvent: {}
+[16.304273] (cadt02_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[16.304935] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/rosidl_interfaces/cadt02_interfaces\n'}
+[16.306752] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__functions.h\n'}
+[16.307095] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__struct.h\n'}
+[16.307350] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__type_support.h\n'}
+[16.307595] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.307853] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/way_point.h\n'}
+[16.308294] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/library_path.sh\n'}
+[16.308691] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/library_path.dsv\n'}
+[16.309668] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_fastrtps_c.h\n'}
+[16.309983] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.310544] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[16.311561] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.311856] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.312404] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.314447] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_introspection_c.h\n'}
+[16.314718] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.314891] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__builder.hpp\n'}
+[16.315132] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__struct.hpp\n'}
+[16.315295] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__traits.hpp\n'}
+[16.315507] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__type_support.hpp\n'}
+[16.315708] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.315917] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/way_point.hpp\n'}
+[16.316522] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/include/cadt02_interfaces/msg/detail/way_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.317013] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/pythonpath.sh\n'}
+[16.317396] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/pythonpath.dsv\n'}
+[16.317786] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/__init__.py\n'}
+[16.318495] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/msg/__init__.py\n'}
+[16.318774] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/msg/_way_point.py\n'}
+[16.319375] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[16.320099] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[16.320580] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages/cadt02_interfaces/cadt02_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[16.321170] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__python.so\n'}
+[16.321576] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/msg/WayPoint.idl\n'}
+[16.321961] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/msg/WayPoint.msg\n'}
+[16.322371] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/package_run_dependencies/cadt02_interfaces\n'}
+[16.322773] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/parent_prefix_path/cadt02_interfaces\n'}
+[16.323345] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/ament_prefix_path.sh\n'}
+[16.323618] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/ament_prefix_path.dsv\n'}
+[16.323898] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/path.sh\n'}
+[16.324274] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/environment/path.dsv\n'}
+[16.324645] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.bash\n'}
+[16.325018] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.sh\n'}
+[16.325389] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.zsh\n'}
+[16.325751] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/local_setup.dsv\n'}
+[16.325997] (cadt02_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.dsv\n'}
+[16.332868] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/ament_index/resource_index/packages/cadt02_interfaces\n'}
+[16.333472] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[16.333766] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.334023] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.334382] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.334752] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.335112] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.335464] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.335829] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfacesConfig.cmake\n'}
+[16.336093] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfacesConfig-version.cmake\n'}
+[16.336449] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/package.xml\n'}
+[16.337280] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_generator_c.so\n'}
+[16.337628] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[16.337930] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_c.so\n'}
+[16.338387] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[16.338831] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/libcadt02_interfaces__rosidl_typesupport_cpp.so\n'}
+[16.349646] (auto_r2) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[16.350355] (auto_r2) StderrLine: {'line': b'!!\n'}
+[16.350636] (auto_r2) StderrLine: {'line': b'\n'}
+[16.350893] (auto_r2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[16.351152] (auto_r2) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[16.351397] (auto_r2) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[16.351617] (auto_r2) StderrLine: {'line': b'\n'}
+[16.351865] (auto_r2) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[16.355016] (auto_r2) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[16.355482] (auto_r2) StderrLine: {'line': b'\n'}
+[16.355916] (auto_r2) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[16.356228] (auto_r2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[16.356399] (auto_r2) StderrLine: {'line': b'\n'}
+[16.356539] (auto_r2) StderrLine: {'line': b'!!\n'}
+[16.356755] (auto_r2) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[16.403134] (-) TimerEvent: {}
+[16.439144] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_generator_cExport.cmake\n'}
+[16.439620] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.439908] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.440126] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.440280] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[16.440421] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.440680] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_generator_cppExport.cmake\n'}
+[16.440927] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.441080] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.441296] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[16.441484] (cadt02_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/share/cadt02_interfaces/cmake/cadt02_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.464792] (cadt02_interfaces) CommandEnded: {'returncode': 0}
+[16.505880] (-) TimerEvent: {}
+[16.606579] (-) TimerEvent: {}
+[16.707887] (-) TimerEvent: {}
+[16.808874] (-) TimerEvent: {}
+[16.910004] (-) TimerEvent: {}
+[16.913438] (auto_r2) StdoutLine: {'line': b'running develop\n'}
+[16.914044] (auto_r2) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[16.914260] (auto_r2) StderrLine: {'line': b'!!\n'}
+[16.914410] (auto_r2) StderrLine: {'line': b'\n'}
+[16.914545] (auto_r2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[16.914678] (auto_r2) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[16.914803] (auto_r2) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[16.914926] (auto_r2) StderrLine: {'line': b'        standards-based tools.\n'}
+[16.915047] (auto_r2) StderrLine: {'line': b'\n'}
+[16.915165] (auto_r2) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[16.915284] (auto_r2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[16.915403] (auto_r2) StderrLine: {'line': b'\n'}
+[16.915520] (auto_r2) StderrLine: {'line': b'!!\n'}
+[16.915638] (auto_r2) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[17.010144] (-) TimerEvent: {}
+[17.014232] (auto_r2) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[17.014621] (auto_r2) StderrLine: {'line': b'!!\n'}
+[17.014784] (auto_r2) StderrLine: {'line': b'\n'}
+[17.014921] (auto_r2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[17.015056] (auto_r2) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[17.015220] (auto_r2) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[17.015345] (auto_r2) StderrLine: {'line': b'        standards-based tools.\n'}
+[17.015466] (auto_r2) StderrLine: {'line': b'\n'}
+[17.015586] (auto_r2) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[17.015707] (auto_r2) StderrLine: {'line': b'        ********************************************************************************\n'}
+[17.015825] (auto_r2) StderrLine: {'line': b'\n'}
+[17.015940] (auto_r2) StderrLine: {'line': b'!!\n'}
+[17.016055] (auto_r2) StderrLine: {'line': b'  self.initialize_options()\n'}
+[17.110345] (-) TimerEvent: {}
+[17.211279] (-) TimerEvent: {}
+[17.312402] (-) TimerEvent: {}
+[17.413330] (-) TimerEvent: {}
+[17.515194] (-) TimerEvent: {}
+[17.562293] (auto_r2) StdoutLine: {'line': b'running egg_info\n'}
+[17.606170] (auto_r2) StdoutLine: {'line': b'writing auto_r2.egg-info/PKG-INFO\n'}
+[17.608121] (auto_r2) StdoutLine: {'line': b'writing dependency_links to auto_r2.egg-info/dependency_links.txt\n'}
+[17.609035] (auto_r2) StdoutLine: {'line': b'writing entry points to auto_r2.egg-info/entry_points.txt\n'}
+[17.609674] (auto_r2) StdoutLine: {'line': b'writing requirements to auto_r2.egg-info/requires.txt\n'}
+[17.610849] (auto_r2) StdoutLine: {'line': b'writing top-level names to auto_r2.egg-info/top_level.txt\n'}
+[17.615727] (-) TimerEvent: {}
+[17.712201] (auto_r2) StdoutLine: {'line': b"reading manifest file 'auto_r2.egg-info/SOURCES.txt'\n"}
+[17.714379] (auto_r2) StdoutLine: {'line': b"writing manifest file 'auto_r2.egg-info/SOURCES.txt'\n"}
+[17.717433] (-) TimerEvent: {}
+[17.818669] (-) TimerEvent: {}
+[17.889234] (auto_r2) StdoutLine: {'line': b'running build_ext\n'}
+[17.890396] (auto_r2) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages/auto-r2.egg-link (link to .)\n'}
+[17.892083] (auto_r2) StdoutLine: {'line': b'Installing auto_r2 script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/auto_r2\n'}
+[17.893037] (auto_r2) StdoutLine: {'line': b'\n'}
+[17.893289] (auto_r2) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2\n'}
+[17.894790] (auto_r2) StdoutLine: {'line': b'running install_data\n'}
+[17.895724] (auto_r2) StdoutLine: {'line': b'copying resource/auto_r2 -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/ament_index/resource_index/packages\n'}
+[17.896025] (auto_r2) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/share/auto_r2\n'}
+[17.919025] (-) TimerEvent: {}
+[18.020071] (-) TimerEvent: {}
+[18.111192] (auto_r2) CommandEnded: {'returncode': 0}
+[18.120169] (-) TimerEvent: {}
+[18.221626] (-) TimerEvent: {}
+[18.322572] (-) TimerEvent: {}
+[18.423794] (-) TimerEvent: {}
+[18.525189] (-) TimerEvent: {}
+[18.626950] (-) TimerEvent: {}
+[18.728393] (-) TimerEvent: {}
+[18.829947] (-) TimerEvent: {}
+[18.931662] (-) TimerEvent: {}
+[19.032595] (-) TimerEvent: {}
+[19.133873] (-) TimerEvent: {}
+[19.235127] (-) TimerEvent: {}
+[19.298992] (auto_r2) JobEnded: {'identifier': 'auto_r2', 'rc': 0}
+[19.305806] (movement) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[19.309893] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[19.317942] (keyboard_listener) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[19.325505] (my_robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[19.335328] (-) TimerEvent: {}
+[19.348833] (odometry_cont) JobStarted: {'identifier': 'odometry_cont'}
+[19.435567] (-) TimerEvent: {}
+[19.536709] (-) TimerEvent: {}
+[19.638566] (-) TimerEvent: {}
+[19.739572] (-) TimerEvent: {}
+[19.841284] (-) TimerEvent: {}
+[19.944327] (-) TimerEvent: {}
+[20.045128] (-) TimerEvent: {}
+[20.146201] (-) TimerEvent: {}
+[20.247532] (-) TimerEvent: {}
+[20.348325] (-) TimerEvent: {}
+[20.449039] (-) TimerEvent: {}
+[20.550505] (-) TimerEvent: {}
+[20.652781] (-) TimerEvent: {}
+[20.754040] (-) TimerEvent: {}
+[20.855373] (-) TimerEvent: {}
+[20.957333] (-) TimerEvent: {}
+[21.012809] (movement) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[21.014425] (movement) StderrLine: {'line': b'!!\n'}
+[21.014628] (movement) StderrLine: {'line': b'\n'}
+[21.014777] (movement) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.014915] (movement) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[21.015071] (movement) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.015201] (movement) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.015343] (movement) StderrLine: {'line': b'\n'}
+[21.015469] (movement) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[21.015592] (movement) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.015713] (movement) StderrLine: {'line': b'\n'}
+[21.015830] (movement) StderrLine: {'line': b'!!\n'}
+[21.015948] (movement) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[21.016063] (movement) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[21.016181] (movement) StderrLine: {'line': b'!!\n'}
+[21.016295] (movement) StderrLine: {'line': b'\n'}
+[21.016408] (movement) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.016524] (movement) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[21.017579] (movement) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.018085] (movement) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.018236] (movement) StderrLine: {'line': b'\n'}
+[21.018363] (movement) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[21.018484] (movement) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.018931] (movement) StderrLine: {'line': b'\n'}
+[21.019379] (movement) StderrLine: {'line': b'!!\n'}
+[21.019515] (movement) StderrLine: {'line': b'  self.initialize_options()\n'}
+[21.019651] (my_package) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[21.019842] (my_package) StderrLine: {'line': b'!!\n'}
+[21.019967] (my_package) StderrLine: {'line': b'\n'}
+[21.020087] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.020205] (my_package) StderrLine: {'line': b"        Usage of dash-separated 'build-base' will not be supported in future\n"}
+[21.020323] (my_package) StderrLine: {'line': b"        versions. Please use the underscore name 'build_base' instead.\n"}
+[21.020437] (my_package) StderrLine: {'line': b'\n'}
+[21.020548] (my_package) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[21.020792] (my_package) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[21.020916] (my_package) StderrLine: {'line': b'\n'}
+[21.021031] (my_package) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[21.021145] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.021258] (my_package) StderrLine: {'line': b'\n'}
+[21.021370] (my_package) StderrLine: {'line': b'!!\n'}
+[21.021482] (my_package) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[21.021595] (my_package) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[21.021710] (my_package) StderrLine: {'line': b'!!\n'}
+[21.021823] (my_package) StderrLine: {'line': b'\n'}
+[21.021934] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.022048] (my_package) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[21.022161] (my_package) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.022290] (my_package) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.022405] (my_package) StderrLine: {'line': b'\n'}
+[21.022517] (my_package) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[21.022631] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.022743] (my_package) StderrLine: {'line': b'\n'}
+[21.022855] (my_package) StderrLine: {'line': b'!!\n'}
+[21.022974] (my_package) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[21.023089] (my_package) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[21.023202] (my_package) StderrLine: {'line': b'!!\n'}
+[21.023313] (my_package) StderrLine: {'line': b'\n'}
+[21.023423] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.023535] (my_package) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[21.023646] (my_package) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.023759] (my_package) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.023871] (my_package) StderrLine: {'line': b'\n'}
+[21.023985] (my_package) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[21.024099] (my_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.024210] (my_package) StderrLine: {'line': b'\n'}
+[21.024320] (my_package) StderrLine: {'line': b'!!\n'}
+[21.024430] (my_package) StderrLine: {'line': b'  self.initialize_options()\n'}
+[21.024543] (movement) StdoutLine: {'line': b'running develop\n'}
+[21.025243] (movement) StdoutLine: {'line': b'running egg_info\n'}
+[21.025679] (movement) StdoutLine: {'line': b'writing movement.egg-info/PKG-INFO\n'}
+[21.026552] (movement) StdoutLine: {'line': b'writing dependency_links to movement.egg-info/dependency_links.txt\n'}
+[21.026703] (movement) StdoutLine: {'line': b'writing entry points to movement.egg-info/entry_points.txt\n'}
+[21.026837] (movement) StdoutLine: {'line': b'writing requirements to movement.egg-info/requires.txt\n'}
+[21.026963] (movement) StdoutLine: {'line': b'writing top-level names to movement.egg-info/top_level.txt\n'}
+[21.027085] (movement) StdoutLine: {'line': b"reading manifest file 'movement.egg-info/SOURCES.txt'\n"}
+[21.027208] (movement) StdoutLine: {'line': b"writing manifest file 'movement.egg-info/SOURCES.txt'\n"}
+[21.027331] (my_package) StdoutLine: {'line': b'running develop\n'}
+[21.027487] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[21.027610] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[21.027731] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[21.027852] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[21.027970] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[21.028089] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[21.028207] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[21.028324] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[21.028465] (keyboard_listener) StdoutLine: {'line': b'running develop\n'}
+[21.028668] (keyboard_listener) StdoutLine: {'line': b'running egg_info\n'}
+[21.029148] (keyboard_listener) StdoutLine: {'line': b'writing keyboard_listener.egg-info/PKG-INFO\n'}
+[21.030467] (keyboard_listener) StdoutLine: {'line': b'writing dependency_links to keyboard_listener.egg-info/dependency_links.txt\n'}
+[21.030974] (keyboard_listener) StdoutLine: {'line': b'writing entry points to keyboard_listener.egg-info/entry_points.txt\n'}
+[21.031754] (keyboard_listener) StdoutLine: {'line': b'writing requirements to keyboard_listener.egg-info/requires.txt\n'}
+[21.032247] (keyboard_listener) StdoutLine: {'line': b'writing top-level names to keyboard_listener.egg-info/top_level.txt\n'}
+[21.032538] (keyboard_listener) StdoutLine: {'line': b"reading manifest file 'keyboard_listener.egg-info/SOURCES.txt'\n"}
+[21.033280] (keyboard_listener) StdoutLine: {'line': b"writing manifest file 'keyboard_listener.egg-info/SOURCES.txt'\n"}
+[21.033750] (keyboard_listener) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[21.034271] (keyboard_listener) StderrLine: {'line': b'!!\n'}
+[21.034705] (keyboard_listener) StderrLine: {'line': b'\n'}
+[21.034921] (keyboard_listener) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.035367] (keyboard_listener) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[21.035787] (keyboard_listener) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.036227] (keyboard_listener) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.036544] (keyboard_listener) StderrLine: {'line': b'\n'}
+[21.036979] (keyboard_listener) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[21.037405] (keyboard_listener) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.037870] (keyboard_listener) StderrLine: {'line': b'\n'}
+[21.038039] (keyboard_listener) StderrLine: {'line': b'!!\n'}
+[21.038168] (keyboard_listener) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[21.038290] (keyboard_listener) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[21.038415] (keyboard_listener) StderrLine: {'line': b'!!\n'}
+[21.038531] (keyboard_listener) StderrLine: {'line': b'\n'}
+[21.038648] (keyboard_listener) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.038766] (keyboard_listener) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[21.038882] (keyboard_listener) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.038999] (keyboard_listener) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.039116] (keyboard_listener) StderrLine: {'line': b'\n'}
+[21.039231] (keyboard_listener) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[21.039348] (keyboard_listener) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.039464] (keyboard_listener) StderrLine: {'line': b'\n'}
+[21.039579] (keyboard_listener) StderrLine: {'line': b'!!\n'}
+[21.039692] (keyboard_listener) StderrLine: {'line': b'  self.initialize_options()\n'}
+[21.039814] (my_robot) StdoutLine: {'line': b'running develop\n'}
+[21.040012] (my_robot) StdoutLine: {'line': b'running egg_info\n'}
+[21.040142] (my_robot) StdoutLine: {'line': b'writing my_robot.egg-info/PKG-INFO\n'}
+[21.040267] (my_robot) StdoutLine: {'line': b'writing dependency_links to my_robot.egg-info/dependency_links.txt\n'}
+[21.040389] (my_robot) StdoutLine: {'line': b'writing entry points to my_robot.egg-info/entry_points.txt\n'}
+[21.040507] (my_robot) StdoutLine: {'line': b'writing requirements to my_robot.egg-info/requires.txt\n'}
+[21.040646] (my_robot) StdoutLine: {'line': b'writing top-level names to my_robot.egg-info/top_level.txt\n'}
+[21.040780] (my_robot) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[21.040955] (my_robot) StderrLine: {'line': b'!!\n'}
+[21.041080] (my_robot) StderrLine: {'line': b'\n'}
+[21.041201] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.041322] (my_robot) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[21.041441] (my_robot) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[21.041558] (my_robot) StderrLine: {'line': b'\n'}
+[21.041673] (my_robot) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[21.041788] (my_robot) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[21.041902] (my_robot) StderrLine: {'line': b'\n'}
+[21.042017] (my_robot) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[21.042134] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.042249] (my_robot) StderrLine: {'line': b'\n'}
+[21.042363] (my_robot) StderrLine: {'line': b'!!\n'}
+[21.042476] (my_robot) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[21.042591] (my_robot) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[21.042707] (my_robot) StderrLine: {'line': b'!!\n'}
+[21.042819] (my_robot) StderrLine: {'line': b'\n'}
+[21.042932] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.043435] (my_robot) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[21.043814] (my_robot) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.044222] (my_robot) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.044813] (my_robot) StderrLine: {'line': b'\n'}
+[21.045308] (my_robot) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[21.045772] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.046215] (my_robot) StderrLine: {'line': b'\n'}
+[21.046683] (my_robot) StderrLine: {'line': b'!!\n'}
+[21.047024] (my_robot) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[21.047400] (my_robot) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[21.047871] (my_robot) StderrLine: {'line': b'!!\n'}
+[21.048300] (my_robot) StderrLine: {'line': b'\n'}
+[21.048829] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.049272] (my_robot) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[21.049788] (my_robot) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[21.050145] (my_robot) StderrLine: {'line': b'        standards-based tools.\n'}
+[21.050629] (my_robot) StderrLine: {'line': b'\n'}
+[21.051076] (my_robot) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[21.051683] (my_robot) StderrLine: {'line': b'        ********************************************************************************\n'}
+[21.051958] (my_robot) StderrLine: {'line': b'\n'}
+[21.052682] (my_robot) StderrLine: {'line': b'!!\n'}
+[21.052970] (my_robot) StderrLine: {'line': b'  self.initialize_options()\n'}
+[21.057596] (-) TimerEvent: {}
+[21.072852] (my_robot) StdoutLine: {'line': b"reading manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[21.074695] (my_robot) StdoutLine: {'line': b"writing manifest file 'my_robot.egg-info/SOURCES.txt'\n"}
+[21.086351] (keyboard_listener) StdoutLine: {'line': b'running build_ext\n'}
+[21.087528] (keyboard_listener) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages/keyboard-listener.egg-link (link to .)\n'}
+[21.089333] (keyboard_listener) StdoutLine: {'line': b'Installing keyboard_listener script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/keyboard_listener\n'}
+[21.089693] (keyboard_listener) StdoutLine: {'line': b'\n'}
+[21.090160] (keyboard_listener) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener\n'}
+[21.092042] (keyboard_listener) StdoutLine: {'line': b'running install_data\n'}
+[21.092229] (keyboard_listener) StdoutLine: {'line': b'copying resource/keyboard_listener -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/ament_index/resource_index/packages\n'}
+[21.092382] (keyboard_listener) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/share/keyboard_listener\n'}
+[21.159094] (-) TimerEvent: {}
+[21.165612] (movement) StdoutLine: {'line': b'running build_ext\n'}
+[21.166854] (movement) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement.egg-link (link to .)\n'}
+[21.168401] (movement) StdoutLine: {'line': b'Installing movement script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/movement\n'}
+[21.169666] (movement) StdoutLine: {'line': b'\n'}
+[21.172178] (movement) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement\n'}
+[21.174072] (movement) StdoutLine: {'line': b'running install_data\n'}
+[21.174590] (movement) StdoutLine: {'line': b'copying resource/movement -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/ament_index/resource_index/packages\n'}
+[21.176073] (movement) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement\n'}
+[21.189693] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[21.190968] (my_package) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)\n'}
+[21.193144] (my_package) StdoutLine: {'line': b'Installing live_detection_node script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package\n'}
+[21.193792] (my_package) StdoutLine: {'line': b'Installing main script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package\n'}
+[21.194111] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package\n'}
+[21.196911] (my_package) StdoutLine: {'line': b'Installing reinforcement_r2 script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package\n'}
+[21.204783] (my_package) StdoutLine: {'line': b'\n'}
+[21.206073] (my_package) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package\n'}
+[21.207611] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[21.207954] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/ament_index/resource_index/packages\n'}
+[21.209761] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package\n'}
+[21.259459] (-) TimerEvent: {}
+[21.267051] (my_robot) StdoutLine: {'line': b'running build_ext\n'}
+[21.268097] (my_robot) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages/my-robot.egg-link (link to .)\n'}
+[21.269917] (my_robot) StdoutLine: {'line': b'Installing my_robot script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/my_robot\n'}
+[21.271905] (my_robot) StdoutLine: {'line': b'\n'}
+[21.272968] (my_robot) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot\n'}
+[21.273751] (my_robot) StdoutLine: {'line': b'running install_data\n'}
+[21.274001] (my_robot) StdoutLine: {'line': b'copying resource/my_robot -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/ament_index/resource_index/packages\n'}
+[21.277083] (my_robot) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/share/my_robot\n'}
+[21.360208] (-) TimerEvent: {}
+[21.462990] (-) TimerEvent: {}
+[21.563966] (-) TimerEvent: {}
+[21.668595] (-) TimerEvent: {}
+[21.769531] (-) TimerEvent: {}
+[21.870729] (-) TimerEvent: {}
+[21.972391] (-) TimerEvent: {}
+[22.073940] (-) TimerEvent: {}
+[22.175506] (-) TimerEvent: {}
+[22.277514] (-) TimerEvent: {}
+[22.379123] (-) TimerEvent: {}
+[22.482410] (-) TimerEvent: {}
+[22.584431] (-) TimerEvent: {}
+[22.686188] (-) TimerEvent: {}
+[22.787943] (-) TimerEvent: {}
+[22.887353] (cadt02_interfaces) JobEnded: {'identifier': 'cadt02_interfaces', 'rc': 0}
+[22.891885] (-) TimerEvent: {}
+[22.892646] (ros_imu) JobStarted: {'identifier': 'ros_imu'}
+[22.992109] (-) TimerEvent: {}
+[23.097035] (-) TimerEvent: {}
+[23.197992] (-) TimerEvent: {}
+[23.299855] (-) TimerEvent: {}
+[23.401873] (-) TimerEvent: {}
+[23.503493] (-) TimerEvent: {}
+[23.605256] (-) TimerEvent: {}
+[23.706887] (-) TimerEvent: {}
+[23.808362] (-) TimerEvent: {}
+[23.910123] (-) TimerEvent: {}
+[24.012250] (-) TimerEvent: {}
+[24.113232] (-) TimerEvent: {}
+[24.214215] (-) TimerEvent: {}
+[24.314940] (-) TimerEvent: {}
+[24.415639] (-) TimerEvent: {}
+[24.516451] (-) TimerEvent: {}
+[24.617310] (-) TimerEvent: {}
+[24.718149] (-) TimerEvent: {}
+[24.818982] (-) TimerEvent: {}
+[24.919743] (-) TimerEvent: {}
+[25.020926] (-) TimerEvent: {}
+[25.123841] (-) TimerEvent: {}
+[25.224502] (-) TimerEvent: {}
+[25.325814] (-) TimerEvent: {}
+[25.427109] (-) TimerEvent: {}
+[25.528846] (-) TimerEvent: {}
+[25.630441] (-) TimerEvent: {}
+[25.732084] (-) TimerEvent: {}
+[25.833436] (-) TimerEvent: {}
+[25.935117] (-) TimerEvent: {}
+[26.035882] (-) TimerEvent: {}
+[26.113570] (keyboard_listener) CommandEnded: {'returncode': 0}
+[26.135995] (-) TimerEvent: {}
+[26.236899] (-) TimerEvent: {}
+[26.337895] (-) TimerEvent: {}
+[26.438665] (-) TimerEvent: {}
+[26.539402] (-) TimerEvent: {}
+[26.640790] (-) TimerEvent: {}
+[26.741457] (-) TimerEvent: {}
+[26.842092] (-) TimerEvent: {}
+[26.943339] (-) TimerEvent: {}
+[27.045086] (-) TimerEvent: {}
+[27.146070] (-) TimerEvent: {}
+[27.246943] (-) TimerEvent: {}
+[27.299548] (keyboard_listener) JobEnded: {'identifier': 'keyboard_listener', 'rc': 0}
+[27.301396] (movement) CommandEnded: {'returncode': 0}
+[27.347363] (-) TimerEvent: {}
+[27.448352] (-) TimerEvent: {}
+[27.549294] (-) TimerEvent: {}
+[27.650478] (-) TimerEvent: {}
+[27.752013] (-) TimerEvent: {}
+[27.853525] (-) TimerEvent: {}
+[27.957662] (-) TimerEvent: {}
+[28.058368] (-) TimerEvent: {}
+[28.159592] (-) TimerEvent: {}
+[28.261150] (-) TimerEvent: {}
+[28.361800] (-) TimerEvent: {}
+[28.464628] (-) TimerEvent: {}
+[28.502900] (movement) JobEnded: {'identifier': 'movement', 'rc': 0}
+[28.504255] (my_package) CommandEnded: {'returncode': 0}
+[28.565473] (-) TimerEvent: {}
+[28.666936] (-) TimerEvent: {}
+[28.768095] (-) TimerEvent: {}
+[28.868717] (-) TimerEvent: {}
+[28.969354] (-) TimerEvent: {}
+[29.071353] (-) TimerEvent: {}
+[29.172255] (-) TimerEvent: {}
+[29.272912] (-) TimerEvent: {}
+[29.374314] (-) TimerEvent: {}
+[29.474957] (-) TimerEvent: {}
+[29.577264] (-) TimerEvent: {}
+[29.678282] (-) TimerEvent: {}
+[29.709478] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[29.713246] (my_robot) CommandEnded: {'returncode': 0}
+[29.778493] (-) TimerEvent: {}
+[29.879216] (-) TimerEvent: {}
+[29.981008] (-) TimerEvent: {}
+[30.082221] (-) TimerEvent: {}
+[30.183501] (-) TimerEvent: {}
+[30.284609] (-) TimerEvent: {}
+[30.385500] (-) TimerEvent: {}
+[30.487494] (-) TimerEvent: {}
+[30.589310] (-) TimerEvent: {}
+[30.689957] (-) TimerEvent: {}
+[30.791784] (-) TimerEvent: {}
+[30.894939] (-) TimerEvent: {}
+[30.914225] (my_robot) JobEnded: {'identifier': 'my_robot', 'rc': 0}
+[30.917820] (keyboard_publisher) JobStarted: {'identifier': 'keyboard_publisher'}
+[30.995206] (-) TimerEvent: {}
+[31.096384] (-) TimerEvent: {}
+[31.198019] (-) TimerEvent: {}
+[31.299063] (-) TimerEvent: {}
+[31.401228] (-) TimerEvent: {}
+[31.503686] (-) TimerEvent: {}
+[31.604643] (-) TimerEvent: {}
+[31.706768] (-) TimerEvent: {}
+[31.807989] (-) TimerEvent: {}
+[31.909378] (-) TimerEvent: {}
+[32.014100] (-) TimerEvent: {}
+[32.116186] (-) TimerEvent: {}
+[32.216907] (-) TimerEvent: {}
+[32.318750] (-) TimerEvent: {}
+[32.419774] (-) TimerEvent: {}
+[32.521057] (-) TimerEvent: {}
+[32.621860] (-) TimerEvent: {}
+[32.722490] (-) TimerEvent: {}
+[32.823099] (-) TimerEvent: {}
+[32.923769] (-) TimerEvent: {}
+[33.024836] (-) TimerEvent: {}
+[33.125831] (-) TimerEvent: {}
+[33.227142] (-) TimerEvent: {}
+[33.327800] (-) TimerEvent: {}
+[33.428426] (-) TimerEvent: {}
+[33.529475] (-) TimerEvent: {}
+[33.631670] (-) TimerEvent: {}
+[33.732466] (-) TimerEvent: {}
+[33.834832] (-) TimerEvent: {}
+[33.936138] (-) TimerEvent: {}
+[34.038429] (-) TimerEvent: {}
+[34.139570] (-) TimerEvent: {}
+[34.241649] (-) TimerEvent: {}
+[34.342542] (-) TimerEvent: {}
+[34.443371] (-) TimerEvent: {}
+[34.544202] (-) TimerEvent: {}
+[34.645130] (-) TimerEvent: {}
+[34.745778] (-) TimerEvent: {}
+[34.847147] (-) TimerEvent: {}
+[34.949884] (-) TimerEvent: {}
+[35.050739] (-) TimerEvent: {}
+[35.151653] (-) TimerEvent: {}
+[35.253193] (-) TimerEvent: {}
+[35.353939] (-) TimerEvent: {}
+[35.454659] (-) TimerEvent: {}
+[35.555305] (-) TimerEvent: {}
+[35.656539] (-) TimerEvent: {}
+[35.757770] (-) TimerEvent: {}
+[35.858671] (-) TimerEvent: {}
+[35.956054] (odometry_cont) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[35.961417] (-) TimerEvent: {}
+[36.064093] (-) TimerEvent: {}
+[36.164923] (-) TimerEvent: {}
+[36.265529] (-) TimerEvent: {}
+[36.303481] (odometry_cont) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[36.304318] (odometry_cont) StderrLine: {'line': b'!!\n'}
+[36.304564] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.304877] (odometry_cont) StderrLine: {'line': b'        ********************************************************************************\n'}
+[36.305044] (odometry_cont) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[36.305187] (odometry_cont) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[36.305322] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.305446] (odometry_cont) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[36.305569] (odometry_cont) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[36.305687] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.305801] (odometry_cont) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[36.306000] (odometry_cont) StderrLine: {'line': b'        ********************************************************************************\n'}
+[36.306135] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.306256] (odometry_cont) StderrLine: {'line': b'!!\n'}
+[36.306375] (odometry_cont) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[36.365673] (-) TimerEvent: {}
+[36.466293] (-) TimerEvent: {}
+[36.566909] (-) TimerEvent: {}
+[36.667682] (-) TimerEvent: {}
+[36.768306] (-) TimerEvent: {}
+[36.800242] (odometry_cont) StdoutLine: {'line': b'running develop\n'}
+[36.801023] (odometry_cont) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[36.801236] (odometry_cont) StderrLine: {'line': b'!!\n'}
+[36.801383] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.801522] (odometry_cont) StderrLine: {'line': b'        ********************************************************************************\n'}
+[36.801652] (odometry_cont) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[36.801805] (odometry_cont) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[36.801926] (odometry_cont) StderrLine: {'line': b'        standards-based tools.\n'}
+[36.802045] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.802159] (odometry_cont) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[36.802273] (odometry_cont) StderrLine: {'line': b'        ********************************************************************************\n'}
+[36.802390] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.802507] (odometry_cont) StderrLine: {'line': b'!!\n'}
+[36.802618] (odometry_cont) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[36.868447] (-) TimerEvent: {}
+[36.891230] (odometry_cont) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[36.891689] (odometry_cont) StderrLine: {'line': b'!!\n'}
+[36.891848] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.891982] (odometry_cont) StderrLine: {'line': b'        ********************************************************************************\n'}
+[36.892111] (odometry_cont) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[36.892232] (odometry_cont) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[36.892350] (odometry_cont) StderrLine: {'line': b'        standards-based tools.\n'}
+[36.892464] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.892587] (odometry_cont) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[36.892742] (odometry_cont) StderrLine: {'line': b'        ********************************************************************************\n'}
+[36.892865] (odometry_cont) StderrLine: {'line': b'\n'}
+[36.892981] (odometry_cont) StderrLine: {'line': b'!!\n'}
+[36.893094] (odometry_cont) StderrLine: {'line': b'  self.initialize_options()\n'}
+[36.968594] (-) TimerEvent: {}
+[37.069223] (-) TimerEvent: {}
+[37.169844] (-) TimerEvent: {}
+[37.273116] (-) TimerEvent: {}
+[37.357748] (odometry_cont) StdoutLine: {'line': b'running egg_info\n'}
+[37.373227] (-) TimerEvent: {}
+[37.400226] (odometry_cont) StdoutLine: {'line': b'writing odometry_cont.egg-info/PKG-INFO\n'}
+[37.401642] (odometry_cont) StdoutLine: {'line': b'writing dependency_links to odometry_cont.egg-info/dependency_links.txt\n'}
+[37.402232] (odometry_cont) StdoutLine: {'line': b'writing entry points to odometry_cont.egg-info/entry_points.txt\n'}
+[37.402724] (odometry_cont) StdoutLine: {'line': b'writing requirements to odometry_cont.egg-info/requires.txt\n'}
+[37.403094] (odometry_cont) StdoutLine: {'line': b'writing top-level names to odometry_cont.egg-info/top_level.txt\n'}
+[37.473372] (-) TimerEvent: {}
+[37.497678] (odometry_cont) StdoutLine: {'line': b"reading manifest file 'odometry_cont.egg-info/SOURCES.txt'\n"}
+[37.499553] (odometry_cont) StdoutLine: {'line': b"writing manifest file 'odometry_cont.egg-info/SOURCES.txt'\n"}
+[37.519464] (ros_imu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[37.530488] (keyboard_publisher) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/build', '--no-deps', 'install_data'], 'cwd': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher', 'env': {'NX_ROOT': '/home/cadt-02/.nx', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'PULSE_CLIENTCONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/client.conf', 'MAIL': '/var/mail/cadt-02', 'USER': 'cadt-02', 'LC_TIME': 'km_KH', 'XDG_SESSION_TYPE': 'x11', 'NX_SYSTEM': '/usr/NX', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64', 'HOME': '/home/cadt-02', 'OLDPWD': '/home/cadt-02', 'DESKTOP_SESSION': 'ubuntu-xorg', 'JETSON_L4T': '35.4.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'JETSON_MODEL': 'NVIDIA Orin Nano Developer Kit', 'LC_MONETARY': 'km_KH', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-P2mzDpMu3r,guid=0622b422eedb9e8a4f7d0efb6677c734', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator2cc6ef39a2546eceee281685e3dda79f7', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6287', 'PULSE_SCRIPT': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/default.pa', 'COLCON_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cadt-02', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (8GB ram)', 'JETSON_SERIAL_NUMBER': '1423623045966', 'PULSE_SERVER': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/native.socket', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'P3768', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cadt-02', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/cadt-02/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cadt02-pc:@/tmp/.ICE-unix/5026,unix/cadt02-pc:/tmp/.ICE-unix/5026', 'PULSE_RUNTIME_PATH': '/run/user/1000/pulse', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'km_KH', 'XDG_RUNTIME_DIR': '/run/user/1000', 'PULSE_CONFIG': '/home/cadt-02/.nx/nxdevice/D-1001-70941F422D5DB35CC687A0E5DC368BB5/audio/daemon.conf', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1001', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LD_PRELOAD': '', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'km_KH', 'NX_TEMP': '/tmp', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/home/cadt-02/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra23x', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'km_KH', 'TERMINATOR_UUID': 'urn:uuid:a1badb29-34e5-44b0-b07d-760307733cd6', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'km_KH', 'NX_SESSION_ID': '70941F422D5DB35CC687A0E5DC368BB5', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'km_KH', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher', 'NX_RUNNER': '/usr/NX/bin/nxrunner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu:/home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/position_control:/home/cadt-02/Documents/can_test_usb/ros2_can/install/position_control/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry:/home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_robot:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_robot/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_listener:/home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_listener/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_r2:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_r2/lib/python3.8/site-packages:/home/cadt-02/Documents/can_test_usb/ros2_can/build/auto_node:/home/cadt-02/Documents/can_test_usb/ros2_can/install/auto_node/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'km_KH', 'LC_PAPER': 'km_KH', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.2', 'CMAKE_PREFIX_PATH': '/home/cadt-02/Documents/can_test_usb/ros2_can/install/cadt02_interfaces', 'NX_CONNECTION': '172.23.34.154 56590 172.23.34.34 4000', 'JETSON_P_NUMBER': 'p3767-0003', 'NXDIR': '/usr/NX'}, 'shell': False}
+[37.573542] (-) TimerEvent: {}
+[37.664268] (odometry_cont) StdoutLine: {'line': b'running build_ext\n'}
+[37.665020] (odometry_cont) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/python3.8/site-packages/odometry-cont.egg-link (link to .)\n'}
+[37.666724] (odometry_cont) StdoutLine: {'line': b'Installing odometry_cont script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/lib/odometry_cont\n'}
+[37.667423] (odometry_cont) StdoutLine: {'line': b'\n'}
+[37.667655] (odometry_cont) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/odometry_cont\n'}
+[37.667810] (odometry_cont) StdoutLine: {'line': b'running install_data\n'}
+[37.667991] (odometry_cont) StdoutLine: {'line': b'copying resource/odometry_cont -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/ament_index/resource_index/packages\n'}
+[37.668305] (odometry_cont) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/odometry_cont/share/odometry_cont\n'}
+[37.673678] (-) TimerEvent: {}
+[37.774358] (-) TimerEvent: {}
+[37.791983] (odometry_cont) CommandEnded: {'returncode': 0}
+[37.865431] (ros_imu) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[37.867282] (ros_imu) StderrLine: {'line': b'!!\n'}
+[37.867826] (ros_imu) StderrLine: {'line': b'\n'}
+[37.868143] (ros_imu) StderrLine: {'line': b'        ********************************************************************************\n'}
+[37.868760] (ros_imu) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[37.869226] (ros_imu) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[37.869429] (ros_imu) StderrLine: {'line': b'\n'}
+[37.869587] (ros_imu) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[37.869732] (ros_imu) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[37.869867] (ros_imu) StderrLine: {'line': b'\n'}
+[37.869994] (ros_imu) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[37.870120] (ros_imu) StderrLine: {'line': b'        ********************************************************************************\n'}
+[37.870243] (ros_imu) StderrLine: {'line': b'\n'}
+[37.870362] (ros_imu) StderrLine: {'line': b'!!\n'}
+[37.870478] (ros_imu) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[37.874721] (-) TimerEvent: {}
+[37.893197] (keyboard_publisher) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[37.894390] (keyboard_publisher) StderrLine: {'line': b'!!\n'}
+[37.894720] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[37.895485] (keyboard_publisher) StderrLine: {'line': b'        ********************************************************************************\n'}
+[37.896047] (keyboard_publisher) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[37.896379] (keyboard_publisher) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[37.897011] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[37.897225] (keyboard_publisher) StderrLine: {'line': b'        By 2024-Sep-26, you need to update your project and remove deprecated calls\n'}
+[37.898654] (keyboard_publisher) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[37.899255] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[37.900304] (keyboard_publisher) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[37.901151] (keyboard_publisher) StderrLine: {'line': b'        ********************************************************************************\n'}
+[37.901506] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[37.903375] (keyboard_publisher) StderrLine: {'line': b'!!\n'}
+[37.905137] (keyboard_publisher) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[37.974922] (-) TimerEvent: {}
+[38.076273] (-) TimerEvent: {}
+[38.181375] (-) TimerEvent: {}
+[38.282143] (-) TimerEvent: {}
+[38.358506] (ros_imu) StdoutLine: {'line': b'running develop\n'}
+[38.359461] (ros_imu) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[38.359861] (ros_imu) StderrLine: {'line': b'!!\n'}
+[38.360738] (ros_imu) StderrLine: {'line': b'\n'}
+[38.361522] (ros_imu) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.361786] (ros_imu) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[38.363731] (ros_imu) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[38.364555] (ros_imu) StderrLine: {'line': b'        standards-based tools.\n'}
+[38.365286] (ros_imu) StderrLine: {'line': b'\n'}
+[38.365627] (ros_imu) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[38.366224] (ros_imu) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.367407] (ros_imu) StderrLine: {'line': b'\n'}
+[38.368428] (ros_imu) StderrLine: {'line': b'!!\n'}
+[38.368663] (ros_imu) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[38.383389] (-) TimerEvent: {}
+[38.396971] (keyboard_publisher) StdoutLine: {'line': b'running develop\n'}
+[38.398436] (keyboard_publisher) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[38.398948] (keyboard_publisher) StderrLine: {'line': b'!!\n'}
+[38.399857] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[38.400102] (keyboard_publisher) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.400750] (keyboard_publisher) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[38.401487] (keyboard_publisher) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[38.401758] (keyboard_publisher) StderrLine: {'line': b'        standards-based tools.\n'}
+[38.402492] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[38.402967] (keyboard_publisher) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[38.404653] (keyboard_publisher) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.405058] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[38.405283] (keyboard_publisher) StderrLine: {'line': b'!!\n'}
+[38.405854] (keyboard_publisher) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[38.446511] (ros_imu) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[38.447126] (ros_imu) StderrLine: {'line': b'!!\n'}
+[38.447694] (ros_imu) StderrLine: {'line': b'\n'}
+[38.448117] (ros_imu) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.448450] (ros_imu) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[38.449044] (ros_imu) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[38.449437] (ros_imu) StderrLine: {'line': b'        standards-based tools.\n'}
+[38.449995] (ros_imu) StderrLine: {'line': b'\n'}
+[38.450429] (ros_imu) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[38.450802] (ros_imu) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.451317] (ros_imu) StderrLine: {'line': b'\n'}
+[38.451742] (ros_imu) StderrLine: {'line': b'!!\n'}
+[38.452116] (ros_imu) StderrLine: {'line': b'  self.initialize_options()\n'}
+[38.486439] (-) TimerEvent: {}
+[38.488844] (keyboard_publisher) StderrLine: {'line': b'/home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[38.490399] (keyboard_publisher) StderrLine: {'line': b'!!\n'}
+[38.490776] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[38.492201] (keyboard_publisher) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.493404] (keyboard_publisher) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[38.494440] (keyboard_publisher) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[38.495180] (keyboard_publisher) StderrLine: {'line': b'        standards-based tools.\n'}
+[38.495883] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[38.496872] (keyboard_publisher) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[38.497457] (keyboard_publisher) StderrLine: {'line': b'        ********************************************************************************\n'}
+[38.499303] (keyboard_publisher) StderrLine: {'line': b'\n'}
+[38.499773] (keyboard_publisher) StderrLine: {'line': b'!!\n'}
+[38.500399] (keyboard_publisher) StderrLine: {'line': b'  self.initialize_options()\n'}
+[38.586615] (-) TimerEvent: {}
+[38.688169] (-) TimerEvent: {}
+[38.789016] (-) TimerEvent: {}
+[38.890152] (-) TimerEvent: {}
+[38.910073] (ros_imu) StdoutLine: {'line': b'running egg_info\n'}
+[38.951709] (ros_imu) StdoutLine: {'line': b'writing ros_imu.egg-info/PKG-INFO\n'}
+[38.952910] (ros_imu) StdoutLine: {'line': b'writing dependency_links to ros_imu.egg-info/dependency_links.txt\n'}
+[38.953225] (ros_imu) StdoutLine: {'line': b'writing entry points to ros_imu.egg-info/entry_points.txt\n'}
+[38.953596] (ros_imu) StdoutLine: {'line': b'writing requirements to ros_imu.egg-info/requires.txt\n'}
+[38.955812] (ros_imu) StdoutLine: {'line': b'writing top-level names to ros_imu.egg-info/top_level.txt\n'}
+[38.957366] (keyboard_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[38.990257] (-) TimerEvent: {}
+[38.999398] (keyboard_publisher) StdoutLine: {'line': b'writing keyboard_publisher.egg-info/PKG-INFO\n'}
+[39.001068] (keyboard_publisher) StdoutLine: {'line': b'writing dependency_links to keyboard_publisher.egg-info/dependency_links.txt\n'}
+[39.003611] (keyboard_publisher) StdoutLine: {'line': b'writing entry points to keyboard_publisher.egg-info/entry_points.txt\n'}
+[39.003934] (keyboard_publisher) StdoutLine: {'line': b'writing requirements to keyboard_publisher.egg-info/requires.txt\n'}
+[39.008063] (keyboard_publisher) StdoutLine: {'line': b'writing top-level names to keyboard_publisher.egg-info/top_level.txt\n'}
+[39.044452] (ros_imu) StdoutLine: {'line': b"reading manifest file 'ros_imu.egg-info/SOURCES.txt'\n"}
+[39.046175] (ros_imu) StdoutLine: {'line': b"writing manifest file 'ros_imu.egg-info/SOURCES.txt'\n"}
+[39.050354] (odometry_cont) JobEnded: {'identifier': 'odometry_cont', 'rc': 0}
+[39.090422] (-) TimerEvent: {}
+[39.094397] (keyboard_publisher) StdoutLine: {'line': b"reading manifest file 'keyboard_publisher.egg-info/SOURCES.txt'\n"}
+[39.096538] (keyboard_publisher) StdoutLine: {'line': b"writing manifest file 'keyboard_publisher.egg-info/SOURCES.txt'\n"}
+[39.190586] (-) TimerEvent: {}
+[39.207236] (ros_imu) StdoutLine: {'line': b'running build_ext\n'}
+[39.207936] (ros_imu) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/python3.8/site-packages/ros-imu.egg-link (link to .)\n'}
+[39.210347] (ros_imu) StdoutLine: {'line': b'Installing ros_imu script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/lib/ros_imu\n'}
+[39.211460] (ros_imu) StdoutLine: {'line': b'\n'}
+[39.211765] (ros_imu) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/ros_imu\n'}
+[39.212289] (ros_imu) StdoutLine: {'line': b'running install_data\n'}
+[39.212941] (ros_imu) StdoutLine: {'line': b'copying resource/ros_imu -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ament_index/resource_index/packages\n'}
+[39.213647] (ros_imu) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/ros_imu/share/ros_imu\n'}
+[39.274134] (keyboard_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[39.274664] (keyboard_publisher) StdoutLine: {'line': b'Creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/python3.8/site-packages/keyboard-publisher.egg-link (link to .)\n'}
+[39.276322] (keyboard_publisher) StdoutLine: {'line': b'Installing keyboard_publisher script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/lib/keyboard_publisher\n'}
+[39.277033] (keyboard_publisher) StdoutLine: {'line': b'\n'}
+[39.277206] (keyboard_publisher) StdoutLine: {'line': b'Installed /home/cadt-02/Documents/can_test_usb/ros2_can/build/keyboard_publisher\n'}
+[39.277391] (keyboard_publisher) StdoutLine: {'line': b'running install_data\n'}
+[39.277554] (keyboard_publisher) StdoutLine: {'line': b'copying resource/keyboard_publisher -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/ament_index/resource_index/packages\n'}
+[39.277909] (keyboard_publisher) StdoutLine: {'line': b'copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/keyboard_publisher/share/keyboard_publisher\n'}
+[39.290742] (-) TimerEvent: {}
+[39.327712] (ros_imu) CommandEnded: {'returncode': 0}
+[39.390957] (-) TimerEvent: {}
+[39.491747] (-) TimerEvent: {}
+[39.595964] (-) TimerEvent: {}
+[39.696835] (-) TimerEvent: {}
+[39.799190] (-) TimerEvent: {}
+[39.901154] (-) TimerEvent: {}
+[40.002160] (-) TimerEvent: {}
+[40.102820] (-) TimerEvent: {}
+[40.204662] (-) TimerEvent: {}
+[40.305566] (-) TimerEvent: {}
+[40.406359] (-) TimerEvent: {}
+[40.506988] (-) TimerEvent: {}
+[40.518074] (ros_imu) JobEnded: {'identifier': 'ros_imu', 'rc': 0}
+[40.521027] (keyboard_publisher) CommandEnded: {'returncode': 0}
+[40.607392] (-) TimerEvent: {}
+[40.708021] (-) TimerEvent: {}
+[40.809678] (-) TimerEvent: {}
+[40.910418] (-) TimerEvent: {}
+[41.011321] (-) TimerEvent: {}
+[41.117649] (-) TimerEvent: {}
+[41.218801] (-) TimerEvent: {}
+[41.321178] (-) TimerEvent: {}
+[41.421984] (-) TimerEvent: {}
+[41.523057] (-) TimerEvent: {}
+[41.623795] (-) TimerEvent: {}
+[41.712807] (keyboard_publisher) JobEnded: {'identifier': 'keyboard_publisher', 'rc': 0}
+[41.715459] (-) EventReactorShutdown: {}

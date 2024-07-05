@@ -1,0 +1,85 @@
+[14.928s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement': NX_CONNECTION=172.23.33.111 57595 172.23.34.34 4000 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build
+[15.834s] running develop
+[15.834s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[15.834s] !!
+[15.834s] 
+[15.835s]         ********************************************************************************
+[15.835s]         Please avoid running ``setup.py`` and ``easy_install``.
+[15.835s]         Instead, use pypa/build, pypa/installer or other
+[15.835s]         standards-based tools.
+[15.835s] 
+[15.835s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[15.835s]         ********************************************************************************
+[15.836s] 
+[15.836s] !!
+[15.836s]   easy_install.initialize_options(self)
+[15.940s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[15.941s] !!
+[15.941s] 
+[15.941s]         ********************************************************************************
+[15.941s]         Please avoid running ``setup.py`` directly.
+[15.941s]         Instead, use pypa/build, pypa/installer or other
+[15.941s]         standards-based tools.
+[15.941s] 
+[15.942s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[15.942s]         ********************************************************************************
+[15.942s] 
+[15.942s] !!
+[15.942s]   self.initialize_options()
+[16.746s] Removing /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement.egg-link (link to .)
+[19.716s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement' returned '0': NX_CONNECTION=172.23.33.111 57595 172.23.34.34 4000 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build
+[19.725s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/movement': NX_CONNECTION=172.23.33.111 57595 172.23.34.34 4000 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement build --build-base /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build install --record /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/install.log --single-version-externally-managed
+[22.236s] running egg_info
+[22.237s] writing ../../build/movement/movement.egg-info/PKG-INFO
+[22.237s] writing dependency_links to ../../build/movement/movement.egg-info/dependency_links.txt
+[22.237s] writing entry points to ../../build/movement/movement.egg-info/entry_points.txt
+[22.237s] writing requirements to ../../build/movement/movement.egg-info/requires.txt
+[22.237s] writing top-level names to ../../build/movement/movement.egg-info/top_level.txt
+[22.237s] reading manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[22.237s] writing manifest file '../../build/movement/movement.egg-info/SOURCES.txt'
+[22.238s] running build
+[22.238s] running build_py
+[22.238s] copying movement/usbcan_adapter.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement
+[22.238s] copying movement/can.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement
+[22.238s] copying movement/rmd_motors.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement
+[22.238s] copying movement/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement
+[22.239s] copying scripts/movement.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/scripts
+[22.239s] copying scripts/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/scripts
+[22.239s] running install
+[22.239s] running install_lib
+[22.239s] creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/scripts
+[22.240s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/scripts/movement.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/scripts
+[22.240s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/scripts/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/scripts
+[22.240s] creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement
+[22.240s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement/usbcan_adapter.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement
+[22.240s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement/can.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement
+[22.240s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement/rmd_motors.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement
+[22.241s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build/lib/movement/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement
+[22.241s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/scripts/movement.py to movement.cpython-38.pyc
+[22.241s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/scripts/__init__.py to __init__.cpython-38.pyc
+[22.241s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement/usbcan_adapter.py to usbcan_adapter.cpython-38.pyc
+[22.241s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement/can.py to can.cpython-38.pyc
+[22.241s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement/rmd_motors.py to rmd_motors.cpython-38.pyc
+[22.241s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement/__init__.py to __init__.cpython-38.pyc
+[22.241s] running install_data
+[22.242s] copying resource/movement -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/ament_index/resource_index/packages
+[22.242s] copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/share/movement
+[22.242s] running install_egg_info
+[22.264s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[22.264s] !!
+[22.265s] 
+[22.265s]         ********************************************************************************
+[22.265s]         Please avoid running ``setup.py`` directly.
+[22.265s]         Instead, use pypa/build, pypa/installer or other
+[22.265s]         standards-based tools.
+[22.265s] 
+[22.265s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[22.265s]         ********************************************************************************
+[22.266s] 
+[22.266s] !!
+[22.266s]   self.initialize_options()
+[22.266s] Copying ../../build/movement/movement.egg-info to /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages/movement-0.0.0-py3.8.egg-info
+[22.266s] running install_scripts
+[22.266s] Installing movement script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/movement
+[22.267s] writing list of installed files to '/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/install.log'
+[25.668s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/movement' returned '0': NX_CONNECTION=172.23.33.111 57595 172.23.34.34 4000 PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/movement/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/movement build --build-base /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/build install --record /home/cadt-02/Documents/can_test_usb/ros2_can/build/movement/install.log --single-version-externally-managed

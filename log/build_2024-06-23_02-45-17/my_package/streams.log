@@ -1,0 +1,114 @@
+[13.132s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build
+[13.540s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[13.540s] !!
+[13.541s] 
+[13.541s]         ********************************************************************************
+[13.541s]         Usage of dash-separated 'build-base' will not be supported in future
+[13.541s]         versions. Please use the underscore name 'build_base' instead.
+[13.541s] 
+[13.541s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[13.541s]         or your builds will no longer be supported.
+[13.542s] 
+[13.542s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[13.542s]         ********************************************************************************
+[13.542s] 
+[13.542s] !!
+[13.542s]   opt = self.warn_dash_deprecation(opt, section)
+[14.047s] running develop
+[14.049s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/command/develop.py:42: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[14.049s] !!
+[14.049s] 
+[14.049s]         ********************************************************************************
+[14.049s]         Please avoid running ``setup.py`` and ``easy_install``.
+[14.049s]         Instead, use pypa/build, pypa/installer or other
+[14.049s]         standards-based tools.
+[14.050s] 
+[14.050s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[14.050s]         ********************************************************************************
+[14.050s] 
+[14.050s] !!
+[14.050s]   easy_install.initialize_options(self)
+[14.143s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[14.143s] !!
+[14.143s] 
+[14.143s]         ********************************************************************************
+[14.144s]         Please avoid running ``setup.py`` directly.
+[14.144s]         Instead, use pypa/build, pypa/installer or other
+[14.144s]         standards-based tools.
+[14.144s] 
+[14.144s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[14.144s]         ********************************************************************************
+[14.145s] 
+[14.145s] !!
+[14.145s]   self.initialize_options()
+[14.637s] Removing /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)
+[17.397s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build
+[17.401s] Invoking command in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_package': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build install --record /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/install.log --single-version-externally-managed
+[19.016s] running egg_info
+[19.016s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[19.017s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[19.017s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[19.017s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[19.017s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[19.017s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[19.017s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[19.017s] running build
+[19.018s] running build_py
+[19.018s] creating /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build
+[19.018s] creating /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib
+[19.018s] creating /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package
+[19.018s] copying my_package/reinforcement_r2.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package
+[19.018s] copying my_package/live_detection_node.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package
+[19.018s] copying my_package/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package
+[19.019s] copying my_package/main.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package
+[19.019s] running install
+[19.019s] running install_lib
+[19.019s] creating /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package
+[19.019s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package/reinforcement_r2.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package
+[19.019s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package/live_detection_node.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package
+[19.019s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package/__init__.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package
+[19.020s] copying /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build/lib/my_package/main.py -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package
+[19.020s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package/reinforcement_r2.py to reinforcement_r2.cpython-38.pyc
+[19.020s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package/live_detection_node.py to live_detection_node.cpython-38.pyc
+[19.020s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package/__init__.py to __init__.cpython-38.pyc
+[19.020s] byte-compiling /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package/main.py to main.cpython-38.pyc
+[19.020s] running install_data
+[19.020s] copying resource/my_package -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/ament_index/resource_index/packages
+[19.021s] copying package.xml -> /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/share/my_package
+[19.021s] running install_egg_info
+[19.021s] Copying ../../build/my_package/my_package.egg-info to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[19.021s] running install_scripts
+[19.021s] Installing live_detection_node script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package
+[19.021s] Installing main script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package
+[19.021s] Installing my_node script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package
+[19.021s] Installing reinforcement_r2 script to /home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/my_package
+[19.022s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/dist.py:476: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[19.022s] !!
+[19.022s] 
+[19.022s]         ********************************************************************************
+[19.022s]         Usage of dash-separated 'build-base' will not be supported in future
+[19.022s]         versions. Please use the underscore name 'build_base' instead.
+[19.022s] 
+[19.023s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[19.023s]         or your builds will no longer be supported.
+[19.023s] 
+[19.023s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[19.023s]         ********************************************************************************
+[19.023s] 
+[19.023s] !!
+[19.023s]   opt = self.warn_dash_deprecation(opt, section)
+[19.024s] /home/cadt-02/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[19.024s] !!
+[19.024s] 
+[19.024s]         ********************************************************************************
+[19.024s]         Please avoid running ``setup.py`` directly.
+[19.024s]         Instead, use pypa/build, pypa/installer or other
+[19.024s]         standards-based tools.
+[19.025s] 
+[19.025s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[19.025s]         ********************************************************************************
+[19.025s] 
+[19.025s] !!
+[19.025s]   self.initialize_options()
+[19.025s] writing list of installed files to '/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/install.log'
+[21.374s] Invoked command in '/home/cadt-02/Documents/can_test_usb/ros2_can/src/my_package' returned '0': PYTHONPATH=/home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/prefix_override:/home/cadt-02/Documents/can_test_usb/ros2_can/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/build install --record /home/cadt-02/Documents/can_test_usb/ros2_can/build/my_package/install.log --single-version-externally-managed

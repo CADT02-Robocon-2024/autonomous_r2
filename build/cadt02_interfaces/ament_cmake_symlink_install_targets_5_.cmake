@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/cadt-02/Documents/can_test_usb/ros2_can/build/cadt02_interfaces/rosidl_generator_py/cadt02_interfaces/libcadt02_interfaces__python.so" "TARGETS" "cadt02_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
