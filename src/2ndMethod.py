@@ -2,11 +2,9 @@ import customtkinter as ctk
 import rclpy
 from std_msgs.msg import Bool
 
-# Initialize the ROS node
 rclpy.init()
 node = rclpy.create_node('gui_node')
 
-# Define ROS publishers
 publisher_start = node.create_publisher(Bool, 'start', 10)
 publisher_retry_ii = node.create_publisher(Bool, 'retry_ii', 10)
 
@@ -43,7 +41,6 @@ def retry_ii_blue_clicked():
 start_retry_frame = ctk.CTkFrame(app)
 start_retry_frame.grid(row=0, column=0, sticky="nsew")
 
-# Red Team
 red_label = ctk.CTkLabel(start_retry_frame, text="Red Team", font=("Helvetica", 20))
 red_label.grid(row=0, column=0, pady=10, padx=20)
 
@@ -53,7 +50,6 @@ start_red_button.grid(row=1, column=0, padx=10, pady=10, sticky="ew")
 retry_ii_red_button = ctk.CTkButton(start_retry_frame, text="Retry II", height=180, width=200, command=retry_ii_red_clicked)
 retry_ii_red_button.grid(row=2, column=0, padx=10, pady=10, sticky="ew")
 
-# Blue Team
 blue_label = ctk.CTkLabel(start_retry_frame, text="Blue Team", font=("Helvetica", 20))
 blue_label.grid(row=0, column=1, pady=10, padx=20)
 
@@ -74,5 +70,4 @@ start_retry_frame.grid_rowconfigure(2, weight=1)
 
 app.mainloop()
 
-# Shutdown the ROS node when the app closes
 rclpy.shutdown()
