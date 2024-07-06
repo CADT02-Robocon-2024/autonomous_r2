@@ -17,7 +17,7 @@ class OdometryPublisher(Node):
     def __init__(self):
         super().__init__('odometry_publisher')
         self.publisher = self.create_publisher(Vector3, 'odometry', 10)  # Create a publisher for the 'odometry' topic
-        self.ser = serial.Serial('/dev/ttyACM0', 115200)  # Replace '/dev/ttyUSB0' with your serial port and 115200 with your baud rate
+        self.ser = serial.Serial('/dev/arduino', 115200)  # Replace '/dev/ttyUSB0' with your serial port and 115200 with your baud rate
         self.get_logger().info('Serial port opened')
         self.create_timer(1.0, self.publish_odometry)  # Publish odometry every 1 second
 

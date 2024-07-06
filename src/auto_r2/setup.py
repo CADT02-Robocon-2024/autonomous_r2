@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'auto_r2 = auto_r2.movement_control:main'
+            'auto_r2 = auto_r2.movement_control:main',
+            'rail_control = auto_r2.rail_control:main',
         ],
     },
 )
