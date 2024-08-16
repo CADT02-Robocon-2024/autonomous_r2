@@ -163,7 +163,7 @@ class MotorCommandNode(Node):
             self.range_pub.publish(self.tof)
 
         
-    # get the silo number from the pc 2
+    # get the silo number from the pc 2 to get silo number
     def silo_feedback(self):
         while rclpy.ok():
             # print("hello")
