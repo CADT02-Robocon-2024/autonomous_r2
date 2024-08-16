@@ -45,10 +45,10 @@ class MotorCommandNode(Node):
             else:
                 print("CAN failed to setup")
 
-        self.subscriber = self.create_subscription(SmartDriver, '/publish_motor', self.callback, 1000)
-        self.encoder_publisher = self.create_publisher(MotorFeedback, 'motor_feedback', 10)
-        self.silo_publisher = self.create_publisher(Silo, 'silo_num', 10)
-        self.range_pub = self.create_publisher(Float32, '/y_range', 10)
+        self.subscriber = self.create_subscription(SmartDriver, '/publish_motor', self.callback, 1000) #topic to control the motor with smart driver
+        self.encoder_publisher = self.create_publisher(MotorFeedback, 'motor_feedback', 10) #publish the feedbacks from the smart driver
+        self.silo_publisher = self.create_publisher(Silo, 'silo_num', 10) #get the silo number from pc 2 via can usb
+        self.range_pub = self.create_publisher(Float32, '/y_range', 10) # publish the range from the range finder TOF
  
         self.bus = can.interface.Bus(bustype='socketcan', channel='can0', bitrate=1000000)
         
@@ -73,7 +73,7 @@ class MotorCommandNode(Node):
         
         self.tof = Float32()
         
-
+    # this sends the command to the smart driver to control the gripper flip
     def callback(self, msg):
         if msg.motor_id == 7:
             self.solenoid_control(msg.motor_id, msg.goal)
@@ -98,6 +98,7 @@ class MotorCommandNode(Node):
             except can.CanError:
                 print("Message NOT sent")
     
+    # control the solenoid vai can usb to arduino
     def solenoid_control(self, mid, solenoid):
         print("id:", mid, "solenoid:", solenoid)
         if solenoid == 0.0:
@@ -114,6 +115,7 @@ class MotorCommandNode(Node):
         except can.CanError:
             print("Message NOT sent")
 
+    # get motor feedback from the smart driver
     def smart_driver_feedback(self):
         while rclpy.ok():
             try:
@@ -127,6 +129,7 @@ class MotorCommandNode(Node):
             except can.CanError as e:
                 self.get_logger().error(f"CAN error: {e}")
     
+    #get distance from the range finder
     def get_dist(self):
         data = self.bus.recv()
         # print("Raw data")
@@ -160,7 +163,7 @@ class MotorCommandNode(Node):
             self.range_pub.publish(self.tof)
 
         
-
+    #get the silo number from the pc 2
     def silo_feedback(self):
         while rclpy.ok():
             # print("hello")
