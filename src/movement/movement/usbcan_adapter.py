@@ -51,9 +51,9 @@ class UsbCanAdapter:
 
     CANUSB_INJECT_SLEEP_GAP_DEFAULT = 200  # ms
     CANUSB_TTY_BAUD_RATE_DEFAULT = 2000000
-    DATA_START_INDEX = 6
-    FRAME_ID_SLICE = slice(2, 6)
-    PGN_SLICE = slice(3, 5)
+    DATA_START_INDEX = 4
+    FRAME_ID_SLICE = slice(2, 4)
+    PGN_SLICE = slice(0, 2)
 
     def __init__(self):
         self.device_port = None
@@ -99,10 +99,13 @@ class UsbCanAdapter:
         frame_len = len(frame)
         try:
             result = self.serial_device.write(bytes(frame))
+            self.serial_device.flush()
             #additional code
-            print(bytes(frame))
+            # print(bytes(frame))
         except serial.SerialException as e:
             raise SerialPortError(f"write() failed: {e}")
+        
+        self.serial_device.flush()
         return frame_len
 
     def frame_receive(self, frame_len_max: int = 20) -> int:

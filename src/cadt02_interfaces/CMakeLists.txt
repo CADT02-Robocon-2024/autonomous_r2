@@ -23,6 +23,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/WayPoint.msg"
   "msg/SmartDriver.msg"
   "msg/ArduinoFeedback.msg"
+  "msg/Hello.msg"
+  "msg/MotorFeedback.msg"
+  "msg/CameraFeedback.msg"
+  "msg/Silo.msg"
+  "msg/LidarDist.msg"
 )
 
 ament_export_dependencies(rosidl_default_runtime)
