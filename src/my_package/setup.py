@@ -5,7 +5,7 @@ package_name = 'my_package'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=[package_name, 'script_cam'],
     data_files=[
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
@@ -20,10 +20,12 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = my_package.my_node:main',
-            'live_detection_node = my_package.live_detection_node:main',
-            'main = my_package.main:main',
-            'reinforcement_r2 = my_package.reinforcement_r2:main'\
+            'my_node = script_cam.my_node:main',
+            'live_detection_node = script_cam.live_detection_node:main',
+            'main = script_cam.main:main',
+            'reinforcement_r2 = script_cam.reinforcement_r2:main',
+            'get_dist = script_cam.get_dist:main',
+            'camera = camera.silo_mover:main',
         ],
     },
 )

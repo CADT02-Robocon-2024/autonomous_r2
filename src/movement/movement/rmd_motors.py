@@ -1,8 +1,10 @@
+import threading
 from movement.usbcan_adapter import UsbCanAdapter
 
-uca = UsbCanAdapter()
-uca.speed = 1000000
-uca.adapter_init(device_port="/dev/usb_can", baudrate=115200)
+# uca = UsbCanAdapter()
+# uca.speed = 1000000
+# uca.adapter_init(device_port="/dev/usb_can", baudrate=115200)
+import movement.can as com
 
 def ratio(mid, ang, velo):
     if mid == 1:
@@ -50,11 +52,29 @@ def run_speed(mid, velo):
     m_data.append(0x55)
     print("moving")
     # m_data_hex = [hex(i) for i in m_data]
-    uca.frame_send(m_data)
+    com.uca.frame_send(m_data)
     
     # print(type(m_data_hex[0]))
     #uca.inject_data_frame(0x40 + mid, m_data_hex)
     #print(uca.extract_data(m_data))
+
+def stop_motor(mid):
+    m_data = []
+    m_data.append(0xAA)
+    m_data.append(0xC8)
+    m_data.append(0x40 + mid)
+    m_data.append(0x01)
+    m_data.append(0x81)
+    m_data.append(0x00)
+    m_data.append(0x00)
+    m_data.append(0x00)
+    m_data.append(0x00)
+    m_data.append(0x00)
+    m_data.append(0x00)
+    m_data.append(0x00)
+    m_data.append(0x55)
+    print("stopping RMD")
+    com.uca.frame_send(m_data)
     
 def test_degree(mid):
     m_data = []
@@ -71,7 +91,30 @@ def test_degree(mid):
     m_data.append(0x00)
     m_data.append(0x00)
     m_data.append(0x55)
-    uca.frame_send(m_data)
+    com.uca.frame_send(m_data)
     #com.uca.inject_data_frame(0x40 + mid, ['a4', '00', 'f4', '01', 'a0', '8c', '00', '0x00'])
+
+    # Threading functions
+def run_speed_thread(mid, velo):
+    run_speed(mid, velo)
+
+def stop_motor_thread(mid):
+    stop_motor(mid)
+
+def test_degree_thread(mid):
+    test_degree(mid)
+
+# # Create and start threads
+# thread1 = threading.Thread(target=run_speed_thread, args=(1, 50))
+# thread2 = threading.Thread(target=stop_motor_thread, args=(1,))
+# thread3 = threading.Thread(target=test_degree_thread, args=(1,))
+
+# thread1.start()
+# thread2.start()
+# thread3.start()
+
+# thread1.join()
+# thread2.join()
+# thread3.join()
         
     

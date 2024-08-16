@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'keyboard_publisher = keyboard_publisher.keyboard_publisher:main',
-            'smart_driver_test = keyboard_publisher.smart_driver_test:main'
+            'smart_driver_test = keyboard_publisher.smart_driver_test:main',
+            'silo_test = keyboard_publisher.silo_test:main',
         ],
     },
 )
