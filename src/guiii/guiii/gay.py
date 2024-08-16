@@ -1,3 +1,4 @@
+
 import customtkinter as ctk
 import rclpy
 from std_msgs.msg import Bool
@@ -76,13 +77,12 @@ def show_team_buttons():
 
     main_frame.grid_columnconfigure(0, weight=1)
     main_frame.grid_columnconfigure(1, weight=1)
-
+    
     red_button = ctk.CTkButton(main_frame, text="Red Team", height=180, command=select_red_team, fg_color="red")
     red_button.grid(row=0, column=0, padx=10, pady=10, sticky="ew")
 
     blue_button = ctk.CTkButton(main_frame, text="Blue Team", height=180, command=select_blue_team, fg_color="blue")
     blue_button.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
-
 def show_red_team_buttons():
     for widget in main_frame.winfo_children():
         widget.destroy()
