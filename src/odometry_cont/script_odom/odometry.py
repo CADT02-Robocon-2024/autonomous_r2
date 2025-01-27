@@ -75,25 +75,6 @@ class MovementControl(Node):
     
     def imu_callback(self, msg):
         self.imu = msg
-        # if self.imu_counter == 0:
-        #     self.offset_w = self.imu.orientation.w
-        #     self.get_logger().info(f'self.offset_w: {self.offset_w}')
-        #     self.imu_counter = 1
-            
-        # if self.offset_w > math.pi:
-        #     if self.imu.orientation.w < math.pi:
-        #         self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
-
-        # if self.imu.orientation.w < math.pi:
-        #     if self.offset_w > math.pi:
-        #         self.corrected_yaw = self.imu.orientation.w + (2*math.pi - self.offset_w)
-        #     else:
-        #         self.corrected_yaw = (self.offset_w - self.imu.orientation.w) * -1
-        # else:
-        #     if self.offset_w > math.pi:
-        #         self.corrected_yaw = (self.imu.orientation.w - self.offset_w)
-        #     else: 
-        #         self.corrected_yaw = (self.offset_w + (2*math.pi - self.imu.orientation.w)) * -1
         if self.imu_counter == 0:
             self.offset_w = self.imu.orientation.w
             self.get_logger().info(f'self.offset_w: {self.offset_w}')
@@ -123,19 +104,6 @@ class MovementControl(Node):
         self.x_mode = msg.linear.z
         self.target_heading = msg.angular.z
 
-    # def moving(self):
-    #     targets = [100, 0, 0]
-    #     self.get_logger().info(f'targets: {targets}')
-    #     self.target_x = targets[0]
-    #     self.target_y = targets[1]
-    #     self.target_heading = targets[2]
-    #     while self.move:
-    #         self.get_logger().info(f'Target x {self.target_x}')
-    #         self.movement()
-    #         self.get_logger().info(f'Move Bool {self.move}')
-    #         # self.move = False
-        
-    #     self.get_logger().info(f'Move complete')
 
     def clamp(input_value, min_value, max_value):
         if input_value > max_value:
@@ -202,27 +170,8 @@ class MovementControl(Node):
                 self.get_logger().info(f'Hello world')
                 Vx = 0.0
 
-            # if(Vx < 80 and Vx > 0):
-            #     Vx = 80.0
-            # elif(Vx > -80 and Vx < 0):
-            #     Vx = -80.0
-            
-            # if(Vy < 80 and Vy > 0):
-            #     Vy = 80.0
-            # elif(Vy > -80 and Vy < 0):
-            #     Vy = -80.0
-
             self.get_logger().info(f'Omega {omega}')
             self.get_logger().info(f'Omega_PID1 {omega_PID1}')
-            # if self.target_heading == 0.0:
-            #     if omega < 10 and omega > 0.08:
-            #         omega = 10.0
-            #     elif omega > -10 and omega < -0.08:
-            #         omega = -10.0
-            #     elif omega == 0:
-            #         omega = 0.0
-            # else:
-            #     omega = -1 * omega_PID1
 
             if omega < 10 and omega > 0.08:
                 omega = 10.0

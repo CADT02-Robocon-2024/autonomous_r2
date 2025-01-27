@@ -1,3 +1,5 @@
+# This class represents a PID controller with parameters for error, proportional gain (kp), integral
+# gain (ki), settling error threshold, and settling time.
 class PID:
     def __init__(self, error, kp, ki, settle_error=3, settle_time=0):
         self.error = error
